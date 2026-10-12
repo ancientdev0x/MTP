@@ -1,0 +1,8555 @@
+{
+  "summary": {
+    "n_wells": 118,
+    "curve_intersection": [
+      "CALI",
+      "DEPT",
+      "DEPTH_MD",
+      "DTC",
+      "FORCE_2020_LITHOFACIES_CONFIDENCE",
+      "FORCE_2020_LITHOFACIES_LITHOLOGY",
+      "GR",
+      "NPHI",
+      "RDEP",
+      "RHOB",
+      "x_loc",
+      "y_loc",
+      "z_loc"
+    ],
+    "step_values": [
+      0.152
+    ],
+    "rows_total": 2337639
+  },
+  "wells": [
+    {
+      "file": "15_9-13.las",
+      "well": "15_9-13",
+      "n_rows": 21441,
+      "step_m": 0.152,
+      "start_m": 25.0,
+      "stop_m": 3283.9641113,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21441,
+          "valid": 20900,
+          "fraction": 0.9748
+        },
+        "RHOB": {
+          "n": 21441,
+          "valid": 18345,
+          "fraction": 0.8556
+        },
+        "NPHI": {
+          "n": 21441,
+          "valid": 14105,
+          "fraction": 0.6579
+        },
+        "DTC": {
+          "n": 21441,
+          "valid": 21282,
+          "fraction": 0.9926
+        },
+        "RDEP": {
+          "n": 21441,
+          "valid": 20956,
+          "fraction": 0.9774
+        },
+        "RSHA": {
+          "n": 21441,
+          "valid": 1623,
+          "fraction": 0.0757
+        },
+        "RMED": {
+          "n": 21441,
+          "valid": 20957,
+          "fraction": 0.9774
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21441,
+          "valid": 18270,
+          "fraction": 0.8521
+        }
+      }
+    },
+    {
+      "file": "15_9-14.las",
+      "well": "15_9-14",
+      "n_rows": 22875,
+      "step_m": 0.152,
+      "start_m": 98.804000854,
+      "stop_m": 3575.6577148,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 22875,
+          "valid": 22802,
+          "fraction": 0.9968
+        },
+        "RHOB": {
+          "n": 22875,
+          "valid": 20363,
+          "fraction": 0.8902
+        },
+        "NPHI": {
+          "n": 22875,
+          "valid": 20363,
+          "fraction": 0.8902
+        },
+        "DTC": {
+          "n": 22875,
+          "valid": 22168,
+          "fraction": 0.9691
+        },
+        "RDEP": {
+          "n": 22875,
+          "valid": 22859,
+          "fraction": 0.9993
+        },
+        "RSHA": {
+          "n": 22875,
+          "valid": 4059,
+          "fraction": 0.1774
+        },
+        "RMED": {
+          "n": 22875,
+          "valid": 22832,
+          "fraction": 0.9981
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 22875,
+          "valid": 20336,
+          "fraction": 0.889
+        }
+      }
+    },
+    {
+      "file": "15_9-15.las",
+      "well": "15_9-15",
+      "n_rows": 20954,
+      "step_m": 0.152,
+      "start_m": 25.0,
+      "stop_m": 3210.0056152,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 20954,
+          "valid": 20349,
+          "fraction": 0.9711
+        },
+        "RHOB": {
+          "n": 20954,
+          "valid": 17672,
+          "fraction": 0.8434
+        },
+        "NPHI": {
+          "n": 20954,
+          "valid": 13497,
+          "fraction": 0.6441
+        },
+        "DTC": {
+          "n": 20954,
+          "valid": 20393,
+          "fraction": 0.9732
+        },
+        "RDEP": {
+          "n": 20954,
+          "valid": 19930,
+          "fraction": 0.9511
+        },
+        "RSHA": {
+          "n": 20954,
+          "valid": 19930,
+          "fraction": 0.9511
+        },
+        "RMED": {
+          "n": 20954,
+          "valid": 19930,
+          "fraction": 0.9511
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 20954,
+          "valid": 17717,
+          "fraction": 0.8455
+        }
+      }
+    },
+    {
+      "file": "15_9-17.las",
+      "well": "15_9-17",
+      "n_rows": 19879,
+      "step_m": 0.152,
+      "start_m": 102.61399841,
+      "stop_m": 3124.0964,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19879,
+          "valid": 19816,
+          "fraction": 0.9968
+        },
+        "RHOB": {
+          "n": 19879,
+          "valid": 16764,
+          "fraction": 0.8433
+        },
+        "NPHI": {
+          "n": 19879,
+          "valid": 13864,
+          "fraction": 0.6974
+        },
+        "DTC": {
+          "n": 19879,
+          "valid": 19353,
+          "fraction": 0.9735
+        },
+        "RDEP": {
+          "n": 19879,
+          "valid": 19706,
+          "fraction": 0.9913
+        },
+        "RSHA": {
+          "n": 19879,
+          "valid": 13107,
+          "fraction": 0.6593
+        },
+        "RMED": {
+          "n": 19879,
+          "valid": 19688,
+          "fraction": 0.9904
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19879,
+          "valid": 17351,
+          "fraction": 0.8728
+        }
+      }
+    },
+    {
+      "file": "15_9-23.las",
+      "well": "15_9-23",
+      "n_rows": 20494,
+      "step_m": 0.152,
+      "start_m": 110.0,
+      "stop_m": 3225.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 20494,
+          "valid": 20014,
+          "fraction": 0.9766
+        },
+        "RHOB": {
+          "n": 20494,
+          "valid": 11094,
+          "fraction": 0.5413
+        },
+        "NPHI": {
+          "n": 20494,
+          "valid": 11503,
+          "fraction": 0.5613
+        },
+        "DTC": {
+          "n": 20494,
+          "valid": 11239,
+          "fraction": 0.5484
+        },
+        "RDEP": {
+          "n": 20494,
+          "valid": 20055,
+          "fraction": 0.9786
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 20494,
+          "valid": 19995,
+          "fraction": 0.9757
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 20494,
+          "valid": 11063,
+          "fraction": 0.5398
+        }
+      }
+    },
+    {
+      "file": "16_1-2.las",
+      "well": "16_1-2",
+      "n_rows": 18547,
+      "step_m": 0.152,
+      "start_m": 104.90000153,
+      "stop_m": 2923.9951172,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18547,
+          "valid": 18497,
+          "fraction": 0.9973
+        },
+        "RHOB": {
+          "n": 18547,
+          "valid": 1737,
+          "fraction": 0.0937
+        },
+        "NPHI": {
+          "n": 18547,
+          "valid": 1682,
+          "fraction": 0.0907
+        },
+        "DTC": {
+          "n": 18547,
+          "valid": 16906,
+          "fraction": 0.9115
+        },
+        "RDEP": {
+          "n": 18547,
+          "valid": 17105,
+          "fraction": 0.9223
+        },
+        "RSHA": {
+          "n": 18547,
+          "valid": 17109,
+          "fraction": 0.9225
+        },
+        "RMED": {
+          "n": 18547,
+          "valid": 17108,
+          "fraction": 0.9224
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18547,
+          "valid": 1734,
+          "fraction": 0.0935
+        }
+      }
+    },
+    {
+      "file": "16_1-6 A.las",
+      "well": "16_1-6 A",
+      "n_rows": 13513,
+      "step_m": 0.152,
+      "start_m": 140.09973504,
+      "stop_m": 2194.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13513,
+          "valid": 13197,
+          "fraction": 0.9766
+        },
+        "RHOB": {
+          "n": 13513,
+          "valid": 3480,
+          "fraction": 0.2575
+        },
+        "NPHI": {
+          "n": 13513,
+          "valid": 3615,
+          "fraction": 0.2675
+        },
+        "DTC": {
+          "n": 13513,
+          "valid": 3566,
+          "fraction": 0.2639
+        },
+        "RDEP": {
+          "n": 13513,
+          "valid": 13060,
+          "fraction": 0.9665
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 13513,
+          "valid": 12965,
+          "fraction": 0.9594
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13513,
+          "valid": 3623,
+          "fraction": 0.2681
+        }
+      }
+    },
+    {
+      "file": "16_10-1.las",
+      "well": "16_10-1",
+      "n_rows": 20147,
+      "step_m": 0.152,
+      "start_m": 99.99978984,
+      "stop_m": 3162.1964,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 20147,
+          "valid": 19997,
+          "fraction": 0.9926
+        },
+        "RHOB": {
+          "n": 20147,
+          "valid": 11505,
+          "fraction": 0.5711
+        },
+        "NPHI": {
+          "n": 20147,
+          "valid": 11618,
+          "fraction": 0.5767
+        },
+        "DTC": {
+          "n": 20147,
+          "valid": 19961,
+          "fraction": 0.9908
+        },
+        "RDEP": {
+          "n": 20147,
+          "valid": 19471,
+          "fraction": 0.9664
+        },
+        "RSHA": {
+          "n": 20147,
+          "valid": 5752,
+          "fraction": 0.2855
+        },
+        "RMED": {
+          "n": 20147,
+          "valid": 19303,
+          "fraction": 0.9581
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 20147,
+          "valid": 17675,
+          "fraction": 0.8773
+        }
+      }
+    },
+    {
+      "file": "16_10-2.las",
+      "well": "16_10-2",
+      "n_rows": 20131,
+      "step_m": 0.152,
+      "start_m": 97.993202209,
+      "stop_m": 3157.7768,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "RDEP",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 20131,
+          "valid": 19999,
+          "fraction": 0.9934
+        },
+        "RHOB": {
+          "n": 20131,
+          "valid": 2520,
+          "fraction": 0.1252
+        },
+        "NPHI": {
+          "n": 20131,
+          "valid": 2520,
+          "fraction": 0.1252
+        },
+        "DTC": {
+          "n": 20131,
+          "valid": 19202,
+          "fraction": 0.9539
+        },
+        "RDEP": {
+          "n": 20131,
+          "valid": 19653,
+          "fraction": 0.9763
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 20131,
+          "valid": 19016,
+          "fraction": 0.9446
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 20131,
+          "valid": 2437,
+          "fraction": 0.1211
+        }
+      }
+    },
+    {
+      "file": "16_10-3.las",
+      "well": "16_10-3",
+      "n_rows": 17995,
+      "step_m": 0.152,
+      "start_m": 114.9095993,
+      "stop_m": 2850.0324707,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 17995,
+          "valid": 17938,
+          "fraction": 0.9968
+        },
+        "RHOB": {
+          "n": 17995,
+          "valid": 10548,
+          "fraction": 0.5862
+        },
+        "NPHI": {
+          "n": 17995,
+          "valid": 4703,
+          "fraction": 0.2614
+        },
+        "DTC": {
+          "n": 17995,
+          "valid": 15911,
+          "fraction": 0.8842
+        },
+        "RDEP": {
+          "n": 17995,
+          "valid": 17356,
+          "fraction": 0.9645
+        },
+        "RSHA": {
+          "n": 17995,
+          "valid": 15958,
+          "fraction": 0.8868
+        },
+        "RMED": {
+          "n": 17995,
+          "valid": 17357,
+          "fraction": 0.9645
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 17995,
+          "valid": 15956,
+          "fraction": 0.8867
+        }
+      }
+    },
+    {
+      "file": "16_10-5.las",
+      "well": "16_10-5",
+      "n_rows": 18808,
+      "step_m": 0.152,
+      "start_m": 175.15638733,
+      "stop_m": 3033.8757324,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18808,
+          "valid": 18799,
+          "fraction": 0.9995
+        },
+        "RHOB": {
+          "n": 18808,
+          "valid": 2603,
+          "fraction": 0.1384
+        },
+        "NPHI": {
+          "n": 18808,
+          "valid": 2653,
+          "fraction": 0.1411
+        },
+        "DTC": {
+          "n": 18808,
+          "valid": 12931,
+          "fraction": 0.6875
+        },
+        "RDEP": {
+          "n": 18808,
+          "valid": 18712,
+          "fraction": 0.9949
+        },
+        "RSHA": {
+          "n": 18808,
+          "valid": 18712,
+          "fraction": 0.9949
+        },
+        "RMED": {
+          "n": 18808,
+          "valid": 18712,
+          "fraction": 0.9949
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18808,
+          "valid": 2765,
+          "fraction": 0.147
+        }
+      }
+    },
+    {
+      "file": "16_11-1 ST3.las",
+      "well": "16_11-1 ST3",
+      "n_rows": 19470,
+      "step_m": 0.152,
+      "start_m": 88.593200684,
+      "stop_m": 3048.0061035,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19470,
+          "valid": 18848,
+          "fraction": 0.9681
+        },
+        "RHOB": {
+          "n": 19470,
+          "valid": 3573,
+          "fraction": 0.1835
+        },
+        "NPHI": {
+          "n": 19470,
+          "valid": 3643,
+          "fraction": 0.1871
+        },
+        "DTC": {
+          "n": 19470,
+          "valid": 16559,
+          "fraction": 0.8505
+        },
+        "RDEP": {
+          "n": 19470,
+          "valid": 9087,
+          "fraction": 0.4667
+        },
+        "RSHA": {
+          "n": 19470,
+          "valid": 3472,
+          "fraction": 0.1783
+        },
+        "RMED": {
+          "n": 19470,
+          "valid": 9138,
+          "fraction": 0.4693
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19470,
+          "valid": 14939,
+          "fraction": 0.7673
+        }
+      }
+    },
+    {
+      "file": "16_2-11 A.las",
+      "well": "16_2-11 A",
+      "n_rows": 14672,
+      "step_m": 0.152,
+      "start_m": 138.12319946,
+      "stop_m": 2368.1924,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 14672,
+          "valid": 14642,
+          "fraction": 0.998
+        },
+        "RHOB": {
+          "n": 14672,
+          "valid": 10398,
+          "fraction": 0.7087
+        },
+        "NPHI": {
+          "n": 14672,
+          "valid": 10565,
+          "fraction": 0.7201
+        },
+        "DTC": {
+          "n": 14672,
+          "valid": 14428,
+          "fraction": 0.9834
+        },
+        "RDEP": {
+          "n": 14672,
+          "valid": 14617,
+          "fraction": 0.9963
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 14672,
+          "valid": 14593,
+          "fraction": 0.9946
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 14672,
+          "valid": 10708,
+          "fraction": 0.7298
+        }
+      }
+    },
+    {
+      "file": "16_2-16.las",
+      "well": "16_2-16",
+      "n_rows": 13637,
+      "step_m": 0.152,
+      "start_m": 142.39039612,
+      "stop_m": 2215.1829,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13637,
+          "valid": 13623,
+          "fraction": 0.999
+        },
+        "RHOB": {
+          "n": 13637,
+          "valid": 9686,
+          "fraction": 0.7103
+        },
+        "NPHI": {
+          "n": 13637,
+          "valid": 9898,
+          "fraction": 0.7258
+        },
+        "DTC": {
+          "n": 13637,
+          "valid": 13391,
+          "fraction": 0.982
+        },
+        "RDEP": {
+          "n": 13637,
+          "valid": 13621,
+          "fraction": 0.9988
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 13637,
+          "valid": 13591,
+          "fraction": 0.9966
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13637,
+          "valid": 10025,
+          "fraction": 0.7351
+        }
+      }
+    },
+    {
+      "file": "16_2-6.las",
+      "well": "16_2-6",
+      "n_rows": 13094,
+      "step_m": 0.152,
+      "start_m": 141.01879883,
+      "stop_m": 2131.2104492,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13094,
+          "valid": 13086,
+          "fraction": 0.9994
+        },
+        "RHOB": {
+          "n": 13094,
+          "valid": 8824,
+          "fraction": 0.6739
+        },
+        "NPHI": {
+          "n": 13094,
+          "valid": 8921,
+          "fraction": 0.6813
+        },
+        "DTC": {
+          "n": 13094,
+          "valid": 8883,
+          "fraction": 0.6784
+        },
+        "RDEP": {
+          "n": 13094,
+          "valid": 13079,
+          "fraction": 0.9989
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 13094,
+          "valid": 13077,
+          "fraction": 0.9987
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13094,
+          "valid": 9138,
+          "fraction": 0.6979
+        }
+      }
+    },
+    {
+      "file": "16_2-7.las",
+      "well": "16_2-7",
+      "n_rows": 15556,
+      "step_m": 0.152,
+      "start_m": 135.63600159,
+      "stop_m": 2500.0184,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 15556,
+          "valid": 15542,
+          "fraction": 0.9991
+        },
+        "RHOB": {
+          "n": 15556,
+          "valid": 11263,
+          "fraction": 0.724
+        },
+        "NPHI": {
+          "n": 15556,
+          "valid": 11341,
+          "fraction": 0.729
+        },
+        "DTC": {
+          "n": 15556,
+          "valid": 11760,
+          "fraction": 0.756
+        },
+        "RDEP": {
+          "n": 15556,
+          "valid": 15507,
+          "fraction": 0.9969
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 15556,
+          "valid": 15437,
+          "fraction": 0.9924
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 15556,
+          "valid": 11683,
+          "fraction": 0.751
+        }
+      }
+    },
+    {
+      "file": "16_4-1.las",
+      "well": "16_4-1",
+      "n_rows": 18424,
+      "step_m": 0.152,
+      "start_m": 112.60960388,
+      "stop_m": 2913.0224,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18424,
+          "valid": 18347,
+          "fraction": 0.9958
+        },
+        "RHOB": {
+          "n": 18424,
+          "valid": 15914,
+          "fraction": 0.8638
+        },
+        "NPHI": {
+          "n": 18424,
+          "valid": 15974,
+          "fraction": 0.867
+        },
+        "DTC": {
+          "n": 18424,
+          "valid": 17694,
+          "fraction": 0.9604
+        },
+        "RDEP": {
+          "n": 18424,
+          "valid": 17775,
+          "fraction": 0.9648
+        },
+        "RSHA": {
+          "n": 18424,
+          "valid": 16066,
+          "fraction": 0.872
+        },
+        "RMED": {
+          "n": 18424,
+          "valid": 17082,
+          "fraction": 0.9272
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18424,
+          "valid": 14120,
+          "fraction": 0.7664
+        }
+      }
+    },
+    {
+      "file": "16_5-3.las",
+      "well": "16_5-3",
+      "n_rows": 12261,
+      "step_m": 0.152,
+      "start_m": 130.046,
+      "stop_m": 1993.5933838,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 12261,
+          "valid": 11869,
+          "fraction": 0.968
+        },
+        "RHOB": {
+          "n": 12261,
+          "valid": 3008,
+          "fraction": 0.2453
+        },
+        "NPHI": {
+          "n": 12261,
+          "valid": 2984,
+          "fraction": 0.2434
+        },
+        "DTC": {
+          "n": 12261,
+          "valid": 3303,
+          "fraction": 0.2694
+        },
+        "RDEP": {
+          "n": 12261,
+          "valid": 11811,
+          "fraction": 0.9633
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 12261,
+          "valid": 11723,
+          "fraction": 0.9561
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 12261,
+          "valid": 3021,
+          "fraction": 0.2464
+        }
+      }
+    },
+    {
+      "file": "16_7-4.las",
+      "well": "16_7-4",
+      "n_rows": 17412,
+      "step_m": 0.152,
+      "start_m": 140.1,
+      "stop_m": 2786.625,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 17412,
+          "valid": 17303,
+          "fraction": 0.9937
+        },
+        "RHOB": {
+          "n": 17412,
+          "valid": 17196,
+          "fraction": 0.9876
+        },
+        "NPHI": {
+          "n": 17412,
+          "valid": 10145,
+          "fraction": 0.5826
+        },
+        "DTC": {
+          "n": 17412,
+          "valid": 17157,
+          "fraction": 0.9854
+        },
+        "RDEP": {
+          "n": 17412,
+          "valid": 17163,
+          "fraction": 0.9857
+        },
+        "RSHA": {
+          "n": 17412,
+          "valid": 1829,
+          "fraction": 0.105
+        },
+        "RMED": {
+          "n": 17412,
+          "valid": 17163,
+          "fraction": 0.9857
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 17412,
+          "valid": 10010,
+          "fraction": 0.5749
+        }
+      }
+    },
+    {
+      "file": "16_7-5.las",
+      "well": "16_7-5",
+      "n_rows": 18488,
+      "step_m": 0.152,
+      "start_m": 99.151985168,
+      "stop_m": 2909.2124023,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18488,
+          "valid": 18422,
+          "fraction": 0.9964
+        },
+        "RHOB": {
+          "n": 18488,
+          "valid": 10905,
+          "fraction": 0.5898
+        },
+        "NPHI": {
+          "n": 18488,
+          "valid": 10905,
+          "fraction": 0.5898
+        },
+        "DTC": {
+          "n": 18488,
+          "valid": 17077,
+          "fraction": 0.9237
+        },
+        "RDEP": {
+          "n": 18488,
+          "valid": 18480,
+          "fraction": 0.9996
+        },
+        "RSHA": {
+          "n": 18488,
+          "valid": 18481,
+          "fraction": 0.9996
+        },
+        "RMED": {
+          "n": 18488,
+          "valid": 18481,
+          "fraction": 0.9996
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18488,
+          "valid": 15590,
+          "fraction": 0.8432
+        }
+      }
+    },
+    {
+      "file": "16_7-6.las",
+      "well": "16_7-6",
+      "n_rows": 17304,
+      "step_m": 0.152,
+      "start_m": 103.0223999,
+      "stop_m": 2733.1904,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 17304,
+          "valid": 15983,
+          "fraction": 0.9237
+        },
+        "RHOB": {
+          "n": 17304,
+          "valid": 10530,
+          "fraction": 0.6085
+        },
+        "NPHI": {
+          "n": 17304,
+          "valid": 10482,
+          "fraction": 0.6058
+        },
+        "DTC": {
+          "n": 17304,
+          "valid": 10561,
+          "fraction": 0.6103
+        },
+        "RDEP": {
+          "n": 17304,
+          "valid": 16159,
+          "fraction": 0.9338
+        },
+        "RSHA": {
+          "n": 17304,
+          "valid": 16149,
+          "fraction": 0.9333
+        },
+        "RMED": {
+          "n": 17304,
+          "valid": 16149,
+          "fraction": 0.9333
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 17304,
+          "valid": 10222,
+          "fraction": 0.5907
+        }
+      }
+    },
+    {
+      "file": "16_8-1.las",
+      "well": "16_8-1",
+      "n_rows": 14586,
+      "step_m": 0.152,
+      "start_m": 96.975196838,
+      "stop_m": 2313.9379883,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 14586,
+          "valid": 14540,
+          "fraction": 0.9968
+        },
+        "RHOB": {
+          "n": 14586,
+          "valid": 6709,
+          "fraction": 0.46
+        },
+        "NPHI": {
+          "n": 14586,
+          "valid": 4987,
+          "fraction": 0.3419
+        },
+        "DTC": {
+          "n": 14586,
+          "valid": 13935,
+          "fraction": 0.9554
+        },
+        "RDEP": {
+          "n": 14586,
+          "valid": 11888,
+          "fraction": 0.815
+        },
+        "RSHA": {
+          "n": 14586,
+          "valid": 11888,
+          "fraction": 0.815
+        },
+        "RMED": {
+          "n": 14586,
+          "valid": 11887,
+          "fraction": 0.815
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 14586,
+          "valid": 6685,
+          "fraction": 0.4583
+        }
+      }
+    },
+    {
+      "file": "17_11-1.las",
+      "well": "17_11-1",
+      "n_rows": 20533,
+      "step_m": 0.152,
+      "start_m": 148.45701599,
+      "stop_m": 3269.4372,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 20533,
+          "valid": 20306,
+          "fraction": 0.9889
+        },
+        "RHOB": {
+          "n": 20533,
+          "valid": 18629,
+          "fraction": 0.9073
+        },
+        "NPHI": {
+          "n": 20533,
+          "valid": 17642,
+          "fraction": 0.8592
+        },
+        "DTC": {
+          "n": 20533,
+          "valid": 17939,
+          "fraction": 0.8737
+        },
+        "RDEP": {
+          "n": 20533,
+          "valid": 20293,
+          "fraction": 0.9883
+        },
+        "RSHA": {
+          "n": 20533,
+          "valid": 15353,
+          "fraction": 0.7477
+        },
+        "RMED": {
+          "n": 20533,
+          "valid": 12555,
+          "fraction": 0.6115
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 20533,
+          "valid": 20099,
+          "fraction": 0.9789
+        }
+      }
+    },
+    {
+      "file": "17_4-1.las",
+      "well": "17_4-1",
+      "n_rows": 25420,
+      "step_m": 0.152,
+      "start_m": 136.4467926,
+      "stop_m": 4000.2438965,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 25420,
+          "valid": 25351,
+          "fraction": 0.9973
+        },
+        "RHOB": {
+          "n": 25420,
+          "valid": 13740,
+          "fraction": 0.5405
+        },
+        "NPHI": {
+          "n": 25420,
+          "valid": 7261,
+          "fraction": 0.2856
+        },
+        "DTC": {
+          "n": 25420,
+          "valid": 23363,
+          "fraction": 0.9191
+        },
+        "RDEP": {
+          "n": 25420,
+          "valid": 23465,
+          "fraction": 0.9231
+        },
+        "RSHA": {
+          "n": 25420,
+          "valid": 6295,
+          "fraction": 0.2476
+        },
+        "RMED": {
+          "n": 25420,
+          "valid": 15907,
+          "fraction": 0.6258
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 25420,
+          "valid": 17271,
+          "fraction": 0.6794
+        }
+      }
+    },
+    {
+      "file": "25_10-10.las",
+      "well": "25_10-10",
+      "n_rows": 15346,
+      "step_m": 0.152,
+      "start_m": 182.0144,
+      "stop_m": 2514.4964,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 15346,
+          "valid": 14979,
+          "fraction": 0.9761
+        },
+        "RHOB": {
+          "n": 15346,
+          "valid": 9213,
+          "fraction": 0.6004
+        },
+        "NPHI": {
+          "n": 15346,
+          "valid": 9242,
+          "fraction": 0.6022
+        },
+        "DTC": {
+          "n": 15346,
+          "valid": 9115,
+          "fraction": 0.594
+        },
+        "RDEP": {
+          "n": 15346,
+          "valid": 14910,
+          "fraction": 0.9716
+        },
+        "RSHA": {
+          "n": 15346,
+          "valid": 14910,
+          "fraction": 0.9716
+        },
+        "RMED": {
+          "n": 15346,
+          "valid": 14908,
+          "fraction": 0.9715
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 15346,
+          "valid": 9321,
+          "fraction": 0.6074
+        }
+      }
+    },
+    {
+      "file": "25_10-9.las",
+      "well": "25_10-9",
+      "n_rows": 19639,
+      "step_m": 0.152,
+      "start_m": 0.0488,
+      "stop_m": 2985.1077,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19639,
+          "valid": 18688,
+          "fraction": 0.9516
+        },
+        "RHOB": {
+          "n": 19639,
+          "valid": 10582,
+          "fraction": 0.5388
+        },
+        "NPHI": {
+          "n": 19639,
+          "valid": 10616,
+          "fraction": 0.5406
+        },
+        "DTC": {
+          "n": 19639,
+          "valid": 10689,
+          "fraction": 0.5443
+        },
+        "RDEP": {
+          "n": 19639,
+          "valid": 18685,
+          "fraction": 0.9514
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 19639,
+          "valid": 18623,
+          "fraction": 0.9483
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19639,
+          "valid": 10788,
+          "fraction": 0.5493
+        }
+      }
+    },
+    {
+      "file": "25_11-15.las",
+      "well": "25_11-15",
+      "n_rows": 12402,
+      "step_m": 0.152,
+      "start_m": 149.9997,
+      "stop_m": 2034.9998779,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 12402,
+          "valid": 12383,
+          "fraction": 0.9985
+        },
+        "RHOB": {
+          "n": 12402,
+          "valid": 11004,
+          "fraction": 0.8873
+        },
+        "NPHI": {
+          "n": 12402,
+          "valid": 5797,
+          "fraction": 0.4674
+        },
+        "DTC": {
+          "n": 12402,
+          "valid": 11291,
+          "fraction": 0.9104
+        },
+        "RDEP": {
+          "n": 12402,
+          "valid": 12173,
+          "fraction": 0.9815
+        },
+        "RSHA": {
+          "n": 12402,
+          "valid": 4639,
+          "fraction": 0.3741
+        },
+        "RMED": {
+          "n": 12402,
+          "valid": 11866,
+          "fraction": 0.9568
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 12402,
+          "valid": 2284,
+          "fraction": 0.1842
+        }
+      }
+    },
+    {
+      "file": "25_11-19 S.las",
+      "well": "25_11-19 S",
+      "n_rows": 13783,
+      "step_m": 0.152,
+      "start_m": 155.09970504,
+      "stop_m": 2250.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13783,
+          "valid": 13295,
+          "fraction": 0.9646
+        },
+        "RHOB": {
+          "n": 13783,
+          "valid": 8279,
+          "fraction": 0.6007
+        },
+        "NPHI": {
+          "n": 13783,
+          "valid": 8235,
+          "fraction": 0.5975
+        },
+        "DTC": {
+          "n": 13783,
+          "valid": 8199,
+          "fraction": 0.5949
+        },
+        "RDEP": {
+          "n": 13783,
+          "valid": 13250,
+          "fraction": 0.9613
+        },
+        "RSHA": {
+          "n": 13783,
+          "valid": 13251,
+          "fraction": 0.9614
+        },
+        "RMED": {
+          "n": 13783,
+          "valid": 13250,
+          "fraction": 0.9613
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13783,
+          "valid": 6975,
+          "fraction": 0.5061
+        }
+      }
+    },
+    {
+      "file": "25_11-24.las",
+      "well": "25_11-24",
+      "n_rows": 13052,
+      "step_m": 0.152,
+      "start_m": 135.0752,
+      "stop_m": 2118.866,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13052,
+          "valid": 10983,
+          "fraction": 0.8415
+        },
+        "RHOB": {
+          "n": 13052,
+          "valid": 6429,
+          "fraction": 0.4926
+        },
+        "NPHI": {
+          "n": 13052,
+          "valid": 6378,
+          "fraction": 0.4887
+        },
+        "DTC": {
+          "n": 13052,
+          "valid": 11574,
+          "fraction": 0.8868
+        },
+        "RDEP": {
+          "n": 13052,
+          "valid": 10890,
+          "fraction": 0.8344
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 13052,
+          "valid": 10832,
+          "fraction": 0.8299
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13052,
+          "valid": 4195,
+          "fraction": 0.3214
+        }
+      }
+    },
+    {
+      "file": "25_11-5.las",
+      "well": "25_11-5",
+      "n_rows": 13337,
+      "step_m": 0.152,
+      "start_m": 146.60871887,
+      "stop_m": 2173.8320313,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13337,
+          "valid": 13279,
+          "fraction": 0.9957
+        },
+        "RHOB": {
+          "n": 13337,
+          "valid": 5159,
+          "fraction": 0.3868
+        },
+        "NPHI": {
+          "n": 13337,
+          "valid": 6660,
+          "fraction": 0.4994
+        },
+        "DTC": {
+          "n": 13337,
+          "valid": 10571,
+          "fraction": 0.7926
+        },
+        "RDEP": {
+          "n": 13337,
+          "valid": 11730,
+          "fraction": 0.8795
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 13337,
+          "valid": 11731,
+          "fraction": 0.8796
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13337,
+          "valid": 5060,
+          "fraction": 0.3794
+        }
+      }
+    },
+    {
+      "file": "25_2-13 T4.las",
+      "well": "25_2-13 T4",
+      "n_rows": 24492,
+      "step_m": 0.152,
+      "start_m": 185.0,
+      "stop_m": 3907.6723633,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24492,
+          "valid": 24416,
+          "fraction": 0.9969
+        },
+        "RHOB": {
+          "n": 24492,
+          "valid": 20661,
+          "fraction": 0.8436
+        },
+        "NPHI": {
+          "n": 24492,
+          "valid": 3969,
+          "fraction": 0.1621
+        },
+        "DTC": {
+          "n": 24492,
+          "valid": 20941,
+          "fraction": 0.855
+        },
+        "RDEP": {
+          "n": 24492,
+          "valid": 24340,
+          "fraction": 0.9938
+        },
+        "RSHA": {
+          "n": 24492,
+          "valid": 20854,
+          "fraction": 0.8515
+        },
+        "RMED": {
+          "n": 24492,
+          "valid": 20852,
+          "fraction": 0.8514
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24492,
+          "valid": 21062,
+          "fraction": 0.86
+        }
+      }
+    },
+    {
+      "file": "25_2-14.las",
+      "well": "25_2-14",
+      "n_rows": 22963,
+      "step_m": 0.152,
+      "start_m": 139.04190063,
+      "stop_m": 3629.375,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 22963,
+          "valid": 22897,
+          "fraction": 0.9971
+        },
+        "RHOB": {
+          "n": 22963,
+          "valid": 16275,
+          "fraction": 0.7087
+        },
+        "NPHI": {
+          "n": 22963,
+          "valid": 3931,
+          "fraction": 0.1712
+        },
+        "DTC": {
+          "n": 22963,
+          "valid": 15294,
+          "fraction": 0.666
+        },
+        "RDEP": {
+          "n": 22963,
+          "valid": 15947,
+          "fraction": 0.6945
+        },
+        "RSHA": {
+          "n": 22963,
+          "valid": 15945,
+          "fraction": 0.6944
+        },
+        "RMED": {
+          "n": 22963,
+          "valid": 15942,
+          "fraction": 0.6942
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 22963,
+          "valid": 15840,
+          "fraction": 0.6898
+        }
+      }
+    },
+    {
+      "file": "25_2-7.las",
+      "well": "25_2-7",
+      "n_rows": 26059,
+      "step_m": 0.152,
+      "start_m": 133.61000061,
+      "stop_m": 4094.4272,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 26059,
+          "valid": 25941,
+          "fraction": 0.9955
+        },
+        "RHOB": {
+          "n": 26059,
+          "valid": 25643,
+          "fraction": 0.984
+        },
+        "NPHI": {
+          "n": 26059,
+          "valid": 12488,
+          "fraction": 0.4792
+        },
+        "DTC": {
+          "n": 26059,
+          "valid": 25487,
+          "fraction": 0.978
+        },
+        "RDEP": {
+          "n": 26059,
+          "valid": 26058,
+          "fraction": 1.0
+        },
+        "RSHA": {
+          "n": 26059,
+          "valid": 26056,
+          "fraction": 0.9999
+        },
+        "RMED": {
+          "n": 26059,
+          "valid": 26058,
+          "fraction": 1.0
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 26059,
+          "valid": 25131,
+          "fraction": 0.9644
+        }
+      }
+    },
+    {
+      "file": "25_3-1.las",
+      "well": "25_3-1",
+      "n_rows": 24963,
+      "step_m": 0.152,
+      "start_m": 136.0,
+      "stop_m": 3930.2924,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24963,
+          "valid": 24584,
+          "fraction": 0.9848
+        },
+        "RHOB": {
+          "n": 24963,
+          "valid": 21223,
+          "fraction": 0.8502
+        },
+        "NPHI": {
+          "n": 24963,
+          "valid": 6225,
+          "fraction": 0.2494
+        },
+        "DTC": {
+          "n": 24963,
+          "valid": 21038,
+          "fraction": 0.8428
+        },
+        "RDEP": {
+          "n": 24963,
+          "valid": 24672,
+          "fraction": 0.9883
+        },
+        "RSHA": {
+          "n": 24963,
+          "valid": 6358,
+          "fraction": 0.2547
+        },
+        "RMED": {
+          "n": 24963,
+          "valid": 21216,
+          "fraction": 0.8499
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24963,
+          "valid": 21186,
+          "fraction": 0.8487
+        }
+      }
+    },
+    {
+      "file": "25_4-5.las",
+      "well": "25_4-5",
+      "n_rows": 27691,
+      "step_m": 0.152,
+      "start_m": 145.59080505,
+      "stop_m": 4354.5742188,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 27691,
+          "valid": 27662,
+          "fraction": 0.999
+        },
+        "RHOB": {
+          "n": 27691,
+          "valid": 23009,
+          "fraction": 0.8309
+        },
+        "NPHI": {
+          "n": 27691,
+          "valid": 23009,
+          "fraction": 0.8309
+        },
+        "DTC": {
+          "n": 27691,
+          "valid": 27166,
+          "fraction": 0.981
+        },
+        "RDEP": {
+          "n": 27691,
+          "valid": 27265,
+          "fraction": 0.9846
+        },
+        "RSHA": {
+          "n": 27691,
+          "valid": 6227,
+          "fraction": 0.2249
+        },
+        "RMED": {
+          "n": 27691,
+          "valid": 27256,
+          "fraction": 0.9843
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 27691,
+          "valid": 23005,
+          "fraction": 0.8308
+        }
+      }
+    },
+    {
+      "file": "25_5-1.las",
+      "well": "25_5-1",
+      "n_rows": 21629,
+      "step_m": 0.152,
+      "start_m": 145.0,
+      "stop_m": 3432.554,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21629,
+          "valid": 21081,
+          "fraction": 0.9747
+        },
+        "RHOB": {
+          "n": 21629,
+          "valid": 18682,
+          "fraction": 0.8637
+        },
+        "NPHI": {
+          "n": 21629,
+          "valid": 3465,
+          "fraction": 0.1602
+        },
+        "DTC": {
+          "n": 21629,
+          "valid": 18454,
+          "fraction": 0.8532
+        },
+        "RDEP": {
+          "n": 21629,
+          "valid": 21144,
+          "fraction": 0.9776
+        },
+        "RSHA": {
+          "n": 21629,
+          "valid": 3062,
+          "fraction": 0.1416
+        },
+        "RMED": {
+          "n": 21629,
+          "valid": 18636,
+          "fraction": 0.8616
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21629,
+          "valid": 18473,
+          "fraction": 0.8541
+        }
+      }
+    },
+    {
+      "file": "25_5-3.las",
+      "well": "25_5-3",
+      "n_rows": 18058,
+      "step_m": 0.152,
+      "start_m": 153.3631897,
+      "stop_m": 2898.0290527,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18058,
+          "valid": 17958,
+          "fraction": 0.9945
+        },
+        "RHOB": {
+          "n": 18058,
+          "valid": 11156,
+          "fraction": 0.6178
+        },
+        "NPHI": {
+          "n": 18058,
+          "valid": 3539,
+          "fraction": 0.196
+        },
+        "DTC": {
+          "n": 18058,
+          "valid": 11117,
+          "fraction": 0.6156
+        },
+        "RDEP": {
+          "n": 18058,
+          "valid": 17740,
+          "fraction": 0.9824
+        },
+        "RSHA": {
+          "n": 18058,
+          "valid": 867,
+          "fraction": 0.048
+        },
+        "RMED": {
+          "n": 18058,
+          "valid": 11271,
+          "fraction": 0.6242
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18058,
+          "valid": 11324,
+          "fraction": 0.6271
+        }
+      }
+    },
+    {
+      "file": "25_5-4.las",
+      "well": "25_5-4",
+      "n_rows": 20021,
+      "step_m": 0.152,
+      "start_m": 145.00030518,
+      "stop_m": 3188.1254883,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 20021,
+          "valid": 19636,
+          "fraction": 0.9808
+        },
+        "RHOB": {
+          "n": 20021,
+          "valid": 13030,
+          "fraction": 0.6508
+        },
+        "NPHI": {
+          "n": 20021,
+          "valid": 2575,
+          "fraction": 0.1286
+        },
+        "DTC": {
+          "n": 20021,
+          "valid": 12996,
+          "fraction": 0.6491
+        },
+        "RDEP": {
+          "n": 20021,
+          "valid": 13019,
+          "fraction": 0.6503
+        },
+        "RSHA": {
+          "n": 20021,
+          "valid": 1702,
+          "fraction": 0.085
+        },
+        "RMED": {
+          "n": 20021,
+          "valid": 13021,
+          "fraction": 0.6504
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 20021,
+          "valid": 13003,
+          "fraction": 0.6495
+        }
+      }
+    },
+    {
+      "file": "25_6-1.las",
+      "well": "25_6-1",
+      "n_rows": 18033,
+      "step_m": 0.152,
+      "start_m": 140.0,
+      "stop_m": 2881.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18033,
+          "valid": 17888,
+          "fraction": 0.992
+        },
+        "RHOB": {
+          "n": 18033,
+          "valid": 17168,
+          "fraction": 0.952
+        },
+        "NPHI": {
+          "n": 18033,
+          "valid": 4575,
+          "fraction": 0.2537
+        },
+        "DTC": {
+          "n": 18033,
+          "valid": 16837,
+          "fraction": 0.9337
+        },
+        "RDEP": {
+          "n": 18033,
+          "valid": 17134,
+          "fraction": 0.9501
+        },
+        "RSHA": {
+          "n": 18033,
+          "valid": 17376,
+          "fraction": 0.9636
+        },
+        "RMED": {
+          "n": 18033,
+          "valid": 17223,
+          "fraction": 0.9551
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18033,
+          "valid": 6209,
+          "fraction": 0.3443
+        }
+      }
+    },
+    {
+      "file": "25_6-2.las",
+      "well": "25_6-2",
+      "n_rows": 14836,
+      "step_m": 0.152,
+      "start_m": 145.0,
+      "stop_m": 2399.9528809,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 14836,
+          "valid": 9045,
+          "fraction": 0.6097
+        },
+        "RHOB": {
+          "n": 14836,
+          "valid": 8841,
+          "fraction": 0.5959
+        },
+        "NPHI": {
+          "n": 14836,
+          "valid": 2224,
+          "fraction": 0.1499
+        },
+        "DTC": {
+          "n": 14836,
+          "valid": 14617,
+          "fraction": 0.9852
+        },
+        "RDEP": {
+          "n": 14836,
+          "valid": 14481,
+          "fraction": 0.9761
+        },
+        "RSHA": {
+          "n": 14836,
+          "valid": 2397,
+          "fraction": 0.1616
+        },
+        "RMED": {
+          "n": 14836,
+          "valid": 9010,
+          "fraction": 0.6073
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 14836,
+          "valid": 2925,
+          "fraction": 0.1972
+        }
+      }
+    },
+    {
+      "file": "25_6-3.las",
+      "well": "25_6-3",
+      "n_rows": 15388,
+      "step_m": 0.152,
+      "start_m": 138.09972888,
+      "stop_m": 2476.9552,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 15388,
+          "valid": 14894,
+          "fraction": 0.9679
+        },
+        "RHOB": {
+          "n": 15388,
+          "valid": 8247,
+          "fraction": 0.5359
+        },
+        "NPHI": {
+          "n": 15388,
+          "valid": 8221,
+          "fraction": 0.5342
+        },
+        "DTC": {
+          "n": 15388,
+          "valid": 12170,
+          "fraction": 0.7909
+        },
+        "RDEP": {
+          "n": 15388,
+          "valid": 15013,
+          "fraction": 0.9756
+        },
+        "RSHA": {
+          "n": 15388,
+          "valid": 8245,
+          "fraction": 0.5358
+        },
+        "RMED": {
+          "n": 15388,
+          "valid": 14972,
+          "fraction": 0.973
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 15388,
+          "valid": 11994,
+          "fraction": 0.7794
+        }
+      }
+    },
+    {
+      "file": "25_7-2.las",
+      "well": "25_7-2",
+      "n_rows": 31686,
+      "step_m": 0.152,
+      "start_m": 133.856,
+      "stop_m": 4950.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 31686,
+          "valid": 30985,
+          "fraction": 0.9779
+        },
+        "RHOB": {
+          "n": 31686,
+          "valid": 28926,
+          "fraction": 0.9129
+        },
+        "NPHI": {
+          "n": 31686,
+          "valid": 6329,
+          "fraction": 0.1997
+        },
+        "DTC": {
+          "n": 31686,
+          "valid": 28547,
+          "fraction": 0.9009
+        },
+        "RDEP": {
+          "n": 31686,
+          "valid": 31088,
+          "fraction": 0.9811
+        },
+        "RSHA": {
+          "n": 31686,
+          "valid": 23890,
+          "fraction": 0.754
+        },
+        "RMED": {
+          "n": 31686,
+          "valid": 29639,
+          "fraction": 0.9354
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 31686,
+          "valid": 23879,
+          "fraction": 0.7536
+        }
+      }
+    },
+    {
+      "file": "25_8-5 S.las",
+      "well": "25_8-5 S",
+      "n_rows": 20537,
+      "step_m": 0.152,
+      "start_m": 273.7104,
+      "stop_m": 3395.3196,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 20537,
+          "valid": 20479,
+          "fraction": 0.9972
+        },
+        "RHOB": {
+          "n": 20537,
+          "valid": 13974,
+          "fraction": 0.6804
+        },
+        "NPHI": {
+          "n": 20537,
+          "valid": 13947,
+          "fraction": 0.6791
+        },
+        "DTC": {
+          "n": 20537,
+          "valid": 8208,
+          "fraction": 0.3997
+        },
+        "RDEP": {
+          "n": 20537,
+          "valid": 20490,
+          "fraction": 0.9977
+        },
+        "RSHA": {
+          "n": 20537,
+          "valid": 14707,
+          "fraction": 0.7161
+        },
+        "RMED": {
+          "n": 20537,
+          "valid": 20362,
+          "fraction": 0.9915
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 20537,
+          "valid": 14599,
+          "fraction": 0.7109
+        }
+      }
+    },
+    {
+      "file": "25_8-7.las",
+      "well": "25_8-7",
+      "n_rows": 9268,
+      "step_m": 0.152,
+      "start_m": 975.05511475,
+      "stop_m": 2383.7372,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 9268,
+          "valid": 9202,
+          "fraction": 0.9929
+        },
+        "RHOB": {
+          "n": 9268,
+          "valid": 2518,
+          "fraction": 0.2717
+        },
+        "NPHI": {
+          "n": 9268,
+          "valid": 2657,
+          "fraction": 0.2867
+        },
+        "DTC": {
+          "n": 9268,
+          "valid": 8611,
+          "fraction": 0.9291
+        },
+        "RDEP": {
+          "n": 9268,
+          "valid": 8701,
+          "fraction": 0.9388
+        },
+        "RSHA": {
+          "n": 9268,
+          "valid": 8236,
+          "fraction": 0.8886
+        },
+        "RMED": {
+          "n": 9268,
+          "valid": 8701,
+          "fraction": 0.9388
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 9268,
+          "valid": 8999,
+          "fraction": 0.971
+        }
+      }
+    },
+    {
+      "file": "25_9-1.las",
+      "well": "25_9-1",
+      "n_rows": 16132,
+      "step_m": 0.152,
+      "start_m": 80.15,
+      "stop_m": 2532.1748047,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16132,
+          "valid": 15756,
+          "fraction": 0.9767
+        },
+        "RHOB": {
+          "n": 16132,
+          "valid": 3685,
+          "fraction": 0.2284
+        },
+        "NPHI": {
+          "n": 16132,
+          "valid": 3656,
+          "fraction": 0.2266
+        },
+        "DTC": {
+          "n": 16132,
+          "valid": 4174,
+          "fraction": 0.2587
+        },
+        "RDEP": {
+          "n": 16132,
+          "valid": 15744,
+          "fraction": 0.9759
+        },
+        "RSHA": {
+          "n": 16132,
+          "valid": 9435,
+          "fraction": 0.5849
+        },
+        "RMED": {
+          "n": 16132,
+          "valid": 11481,
+          "fraction": 0.7117
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16132,
+          "valid": 16111,
+          "fraction": 0.9987
+        }
+      }
+    },
+    {
+      "file": "26_4-1.las",
+      "well": "26_4-1",
+      "n_rows": 22742,
+      "step_m": 0.152,
+      "start_m": 233.24819946,
+      "stop_m": 3690.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 22742,
+          "valid": 22684,
+          "fraction": 0.9974
+        },
+        "RHOB": {
+          "n": 22742,
+          "valid": 13206,
+          "fraction": 0.5807
+        },
+        "NPHI": {
+          "n": 22742,
+          "valid": 13348,
+          "fraction": 0.5869
+        },
+        "DTC": {
+          "n": 22742,
+          "valid": 19476,
+          "fraction": 0.8564
+        },
+        "RDEP": {
+          "n": 22742,
+          "valid": 22709,
+          "fraction": 0.9985
+        },
+        "RSHA": {
+          "n": 22742,
+          "valid": 22465,
+          "fraction": 0.9878
+        },
+        "RMED": {
+          "n": 22742,
+          "valid": 19502,
+          "fraction": 0.8575
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 22742,
+          "valid": 19577,
+          "fraction": 0.8608
+        }
+      }
+    },
+    {
+      "file": "29_3-1.las",
+      "well": "29_3-1",
+      "n_rows": 28514,
+      "step_m": 0.152,
+      "start_m": 132.61000061,
+      "stop_m": 4466.5878906,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 28514,
+          "valid": 28345,
+          "fraction": 0.9941
+        },
+        "RHOB": {
+          "n": 28514,
+          "valid": 8852,
+          "fraction": 0.3104
+        },
+        "NPHI": {
+          "n": 28514,
+          "valid": 8855,
+          "fraction": 0.3105
+        },
+        "DTC": {
+          "n": 28514,
+          "valid": 27295,
+          "fraction": 0.9572
+        },
+        "RDEP": {
+          "n": 28514,
+          "valid": 28050,
+          "fraction": 0.9837
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 28514,
+          "valid": 28017,
+          "fraction": 0.9826
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 28514,
+          "valid": 24213,
+          "fraction": 0.8492
+        }
+      }
+    },
+    {
+      "file": "29_6-1.las",
+      "well": "29_6-1",
+      "n_rows": 30856,
+      "step_m": 0.152,
+      "start_m": 147.45700073,
+      "stop_m": 4837.5664063,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 30856,
+          "valid": 30792,
+          "fraction": 0.9979
+        },
+        "RHOB": {
+          "n": 30856,
+          "valid": 4579,
+          "fraction": 0.1484
+        },
+        "NPHI": {
+          "n": 30856,
+          "valid": 4579,
+          "fraction": 0.1484
+        },
+        "DTC": {
+          "n": 30856,
+          "valid": 29841,
+          "fraction": 0.9671
+        },
+        "RDEP": {
+          "n": 30856,
+          "valid": 30853,
+          "fraction": 0.9999
+        },
+        "RSHA": {
+          "n": 30856,
+          "valid": 14271,
+          "fraction": 0.4625
+        },
+        "RMED": {
+          "n": 30856,
+          "valid": 30819,
+          "fraction": 0.9988
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 30856,
+          "valid": 24468,
+          "fraction": 0.793
+        }
+      }
+    },
+    {
+      "file": "30_3-3.las",
+      "well": "30_3-3",
+      "n_rows": 21287,
+      "step_m": 0.152,
+      "start_m": 200.91,
+      "stop_m": 3436.52,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21287,
+          "valid": 21229,
+          "fraction": 0.9973
+        },
+        "RHOB": {
+          "n": 21287,
+          "valid": 20909,
+          "fraction": 0.9822
+        },
+        "NPHI": {
+          "n": 21287,
+          "valid": 4029,
+          "fraction": 0.1893
+        },
+        "DTC": {
+          "n": 21287,
+          "valid": 20684,
+          "fraction": 0.9717
+        },
+        "RDEP": {
+          "n": 21287,
+          "valid": 21285,
+          "fraction": 0.9999
+        },
+        "RSHA": {
+          "n": 21287,
+          "valid": 21226,
+          "fraction": 0.9971
+        },
+        "RMED": {
+          "n": 21287,
+          "valid": 21274,
+          "fraction": 0.9994
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21287,
+          "valid": 21164,
+          "fraction": 0.9942
+        }
+      }
+    },
+    {
+      "file": "30_3-5 S.las",
+      "well": "30_3-5 S",
+      "n_rows": 28123,
+      "step_m": 0.152,
+      "start_m": 433.16958618,
+      "stop_m": 4707.8369141,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RMED",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 28123,
+          "valid": 28112,
+          "fraction": 0.9996
+        },
+        "RHOB": {
+          "n": 28123,
+          "valid": 4407,
+          "fraction": 0.1567
+        },
+        "NPHI": {
+          "n": 28123,
+          "valid": 4407,
+          "fraction": 0.1567
+        },
+        "DTC": {
+          "n": 28123,
+          "valid": 3693,
+          "fraction": 0.1313
+        },
+        "RDEP": {
+          "n": 28123,
+          "valid": 5369,
+          "fraction": 0.1909
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 28123,
+          "valid": 4407,
+          "fraction": 0.1567
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 28123,
+          "valid": 4382,
+          "fraction": 0.1558
+        }
+      }
+    },
+    {
+      "file": "30_6-5.las",
+      "well": "30_6-5",
+      "n_rows": 22910,
+      "step_m": 0.152,
+      "start_m": 74.0664,
+      "stop_m": 3556.3027344,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 22910,
+          "valid": 22185,
+          "fraction": 0.9684
+        },
+        "RHOB": {
+          "n": 22910,
+          "valid": 17467,
+          "fraction": 0.7624
+        },
+        "NPHI": {
+          "n": 22910,
+          "valid": 17467,
+          "fraction": 0.7624
+        },
+        "DTC": {
+          "n": 22910,
+          "valid": 21615,
+          "fraction": 0.9435
+        },
+        "RDEP": {
+          "n": 22910,
+          "valid": 22229,
+          "fraction": 0.9703
+        },
+        "RSHA": {
+          "n": 22910,
+          "valid": 22135,
+          "fraction": 0.9662
+        },
+        "RMED": {
+          "n": 22910,
+          "valid": 22228,
+          "fraction": 0.9702
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 22910,
+          "valid": 21636,
+          "fraction": 0.9444
+        }
+      }
+    },
+    {
+      "file": "31_2-1.las",
+      "well": "31_2-1",
+      "n_rows": 16035,
+      "step_m": 0.152,
+      "start_m": 0.0762000009,
+      "stop_m": 2437.3820801,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16035,
+          "valid": 13219,
+          "fraction": 0.8244
+        },
+        "RHOB": {
+          "n": 16035,
+          "valid": 11172,
+          "fraction": 0.6967
+        },
+        "NPHI": {
+          "n": 16035,
+          "valid": 11814,
+          "fraction": 0.7368
+        },
+        "DTC": {
+          "n": 16035,
+          "valid": 11177,
+          "fraction": 0.697
+        },
+        "RDEP": {
+          "n": 16035,
+          "valid": 13341,
+          "fraction": 0.832
+        },
+        "RSHA": {
+          "n": 16035,
+          "valid": 13359,
+          "fraction": 0.8331
+        },
+        "RMED": {
+          "n": 16035,
+          "valid": 13359,
+          "fraction": 0.8331
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16035,
+          "valid": 8274,
+          "fraction": 0.516
+        }
+      }
+    },
+    {
+      "file": "31_2-10.las",
+      "well": "31_2-10",
+      "n_rows": 11934,
+      "step_m": 0.152,
+      "start_m": 25.0,
+      "stop_m": 1838.9072266,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 11934,
+          "valid": 9780,
+          "fraction": 0.8195
+        },
+        "RHOB": {
+          "n": 11934,
+          "valid": 9169,
+          "fraction": 0.7683
+        },
+        "NPHI": {
+          "n": 11934,
+          "valid": 9169,
+          "fraction": 0.7683
+        },
+        "DTC": {
+          "n": 11934,
+          "valid": 11809,
+          "fraction": 0.9895
+        },
+        "RDEP": {
+          "n": 11934,
+          "valid": 9838,
+          "fraction": 0.8244
+        },
+        "RSHA": {
+          "n": 11934,
+          "valid": 2171,
+          "fraction": 0.1819
+        },
+        "RMED": {
+          "n": 11934,
+          "valid": 9826,
+          "fraction": 0.8234
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 11934,
+          "valid": 9033,
+          "fraction": 0.7569
+        }
+      }
+    },
+    {
+      "file": "31_2-19 S.las",
+      "well": "31_2-19 S",
+      "n_rows": 24730,
+      "step_m": 0.152,
+      "start_m": 367.9424,
+      "stop_m": 4126.8884,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24730,
+          "valid": 24153,
+          "fraction": 0.9767
+        },
+        "RHOB": {
+          "n": 24730,
+          "valid": 18069,
+          "fraction": 0.7307
+        },
+        "NPHI": {
+          "n": 24730,
+          "valid": 18007,
+          "fraction": 0.7281
+        },
+        "DTC": {
+          "n": 24730,
+          "valid": 18335,
+          "fraction": 0.7414
+        },
+        "RDEP": {
+          "n": 24730,
+          "valid": 24565,
+          "fraction": 0.9933
+        },
+        "RSHA": {
+          "n": 24730,
+          "valid": 18079,
+          "fraction": 0.7311
+        },
+        "RMED": {
+          "n": 24730,
+          "valid": 24550,
+          "fraction": 0.9927
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24730,
+          "valid": 16705,
+          "fraction": 0.6755
+        }
+      }
+    },
+    {
+      "file": "31_2-21 S.las",
+      "well": "31_2-21 S",
+      "n_rows": 18731,
+      "step_m": 0.152,
+      "start_m": 372.0084,
+      "stop_m": 3218.9927,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18731,
+          "valid": 18666,
+          "fraction": 0.9965
+        },
+        "RHOB": {
+          "n": 18731,
+          "valid": 7800,
+          "fraction": 0.4164
+        },
+        "NPHI": {
+          "n": 18731,
+          "valid": 7835,
+          "fraction": 0.4183
+        },
+        "DTC": {
+          "n": 18731,
+          "valid": 18199,
+          "fraction": 0.9716
+        },
+        "RDEP": {
+          "n": 18731,
+          "valid": 18567,
+          "fraction": 0.9912
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 18731,
+          "valid": 18524,
+          "fraction": 0.9889
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18731,
+          "valid": 7840,
+          "fraction": 0.4186
+        }
+      }
+    },
+    {
+      "file": "31_2-7.las",
+      "well": "31_2-7",
+      "n_rows": 8647,
+      "step_m": 0.152,
+      "start_m": 353.30493164,
+      "stop_m": 1667.6096,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 8647,
+          "valid": 8571,
+          "fraction": 0.9912
+        },
+        "RHOB": {
+          "n": 8647,
+          "valid": 8063,
+          "fraction": 0.9325
+        },
+        "NPHI": {
+          "n": 8647,
+          "valid": 8068,
+          "fraction": 0.933
+        },
+        "DTC": {
+          "n": 8647,
+          "valid": 7559,
+          "fraction": 0.8742
+        },
+        "RDEP": {
+          "n": 8647,
+          "valid": 8629,
+          "fraction": 0.9979
+        },
+        "RSHA": {
+          "n": 8647,
+          "valid": 1109,
+          "fraction": 0.1283
+        },
+        "RMED": {
+          "n": 8647,
+          "valid": 8629,
+          "fraction": 0.9979
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 8647,
+          "valid": 8056,
+          "fraction": 0.9317
+        }
+      }
+    },
+    {
+      "file": "31_2-8.las",
+      "well": "31_2-8",
+      "n_rows": 19923,
+      "step_m": 0.152,
+      "start_m": 360.82897949,
+      "stop_m": 3389.119873,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19923,
+          "valid": 19862,
+          "fraction": 0.9969
+        },
+        "RHOB": {
+          "n": 19923,
+          "valid": 19332,
+          "fraction": 0.9703
+        },
+        "NPHI": {
+          "n": 19923,
+          "valid": 19321,
+          "fraction": 0.9698
+        },
+        "DTC": {
+          "n": 19923,
+          "valid": 19055,
+          "fraction": 0.9564
+        },
+        "RDEP": {
+          "n": 19923,
+          "valid": 19922,
+          "fraction": 0.9999
+        },
+        "RSHA": {
+          "n": 19923,
+          "valid": 6746,
+          "fraction": 0.3386
+        },
+        "RMED": {
+          "n": 19923,
+          "valid": 19922,
+          "fraction": 0.9999
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19923,
+          "valid": 19026,
+          "fraction": 0.955
+        }
+      }
+    },
+    {
+      "file": "31_2-9.las",
+      "well": "31_2-9",
+      "n_rows": 9402,
+      "step_m": 0.152,
+      "start_m": 349.30508423,
+      "stop_m": 1778.3602295,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 9402,
+          "valid": 9319,
+          "fraction": 0.9912
+        },
+        "RHOB": {
+          "n": 9402,
+          "valid": 8766,
+          "fraction": 0.9324
+        },
+        "NPHI": {
+          "n": 9402,
+          "valid": 8779,
+          "fraction": 0.9337
+        },
+        "DTC": {
+          "n": 9402,
+          "valid": 9304,
+          "fraction": 0.9896
+        },
+        "RDEP": {
+          "n": 9402,
+          "valid": 9377,
+          "fraction": 0.9973
+        },
+        "RSHA": {
+          "n": 9402,
+          "valid": 1825,
+          "fraction": 0.1941
+        },
+        "RMED": {
+          "n": 9402,
+          "valid": 9377,
+          "fraction": 0.9973
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 9402,
+          "valid": 8753,
+          "fraction": 0.931
+        }
+      }
+    },
+    {
+      "file": "31_3-1.las",
+      "well": "31_3-1",
+      "n_rows": 13361,
+      "step_m": 0.152,
+      "start_m": 349.125,
+      "stop_m": 2379.875,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13361,
+          "valid": 13254,
+          "fraction": 0.992
+        },
+        "RHOB": {
+          "n": 13361,
+          "valid": 10015,
+          "fraction": 0.7496
+        },
+        "NPHI": {
+          "n": 13361,
+          "valid": 7235,
+          "fraction": 0.5415
+        },
+        "DTC": {
+          "n": 13361,
+          "valid": 12829,
+          "fraction": 0.9602
+        },
+        "RDEP": {
+          "n": 13361,
+          "valid": 12890,
+          "fraction": 0.9647
+        },
+        "RSHA": {
+          "n": 13361,
+          "valid": 3688,
+          "fraction": 0.276
+        },
+        "RMED": {
+          "n": 13361,
+          "valid": 12942,
+          "fraction": 0.9686
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13361,
+          "valid": 13236,
+          "fraction": 0.9906
+        }
+      }
+    },
+    {
+      "file": "31_3-2.las",
+      "well": "31_3-2",
+      "n_rows": 11426,
+      "step_m": 0.152,
+      "start_m": 358.30490112,
+      "stop_m": 2095.0549316,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 11426,
+          "valid": 11352,
+          "fraction": 0.9935
+        },
+        "RHOB": {
+          "n": 11426,
+          "valid": 10864,
+          "fraction": 0.9508
+        },
+        "NPHI": {
+          "n": 11426,
+          "valid": 10821,
+          "fraction": 0.9471
+        },
+        "DTC": {
+          "n": 11426,
+          "valid": 10660,
+          "fraction": 0.933
+        },
+        "RDEP": {
+          "n": 11426,
+          "valid": 11413,
+          "fraction": 0.9989
+        },
+        "RSHA": {
+          "n": 11426,
+          "valid": 1138,
+          "fraction": 0.0996
+        },
+        "RMED": {
+          "n": 11426,
+          "valid": 11290,
+          "fraction": 0.9881
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 11426,
+          "valid": 10750,
+          "fraction": 0.9408
+        }
+      }
+    },
+    {
+      "file": "31_3-3.las",
+      "well": "31_3-3",
+      "n_rows": 14668,
+      "step_m": 0.152,
+      "start_m": 348.25,
+      "stop_m": 2577.75,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 14668,
+          "valid": 14573,
+          "fraction": 0.9935
+        },
+        "RHOB": {
+          "n": 14668,
+          "valid": 11670,
+          "fraction": 0.7956
+        },
+        "NPHI": {
+          "n": 14668,
+          "valid": 11708,
+          "fraction": 0.7982
+        },
+        "DTC": {
+          "n": 14668,
+          "valid": 13693,
+          "fraction": 0.9335
+        },
+        "RDEP": {
+          "n": 14668,
+          "valid": 13791,
+          "fraction": 0.9402
+        },
+        "RSHA": {
+          "n": 14668,
+          "valid": 14666,
+          "fraction": 0.9999
+        },
+        "RMED": {
+          "n": 14668,
+          "valid": 14668,
+          "fraction": 1.0
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 14668,
+          "valid": 11624,
+          "fraction": 0.7925
+        }
+      }
+    },
+    {
+      "file": "31_3-4.las",
+      "well": "31_3-4",
+      "n_rows": 11413,
+      "step_m": 0.152,
+      "start_m": 388.009638,
+      "stop_m": 2122.7796,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 11413,
+          "valid": 11401,
+          "fraction": 0.9989
+        },
+        "RHOB": {
+          "n": 11413,
+          "valid": 5417,
+          "fraction": 0.4746
+        },
+        "NPHI": {
+          "n": 11413,
+          "valid": 5428,
+          "fraction": 0.4756
+        },
+        "DTC": {
+          "n": 11413,
+          "valid": 8853,
+          "fraction": 0.7757
+        },
+        "RDEP": {
+          "n": 11413,
+          "valid": 9013,
+          "fraction": 0.7897
+        },
+        "RSHA": {
+          "n": 11413,
+          "valid": 8967,
+          "fraction": 0.7857
+        },
+        "RMED": {
+          "n": 11413,
+          "valid": 8970,
+          "fraction": 0.7859
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 11413,
+          "valid": 5377,
+          "fraction": 0.4711
+        }
+      }
+    },
+    {
+      "file": "31_4-10.las",
+      "well": "31_4-10",
+      "n_rows": 13779,
+      "step_m": 0.152,
+      "start_m": 257.45239258,
+      "stop_m": 2351.7331543,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "ROPA",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13779,
+          "valid": 13551,
+          "fraction": 0.9835
+        },
+        "RHOB": {
+          "n": 13779,
+          "valid": 8803,
+          "fraction": 0.6389
+        },
+        "NPHI": {
+          "n": 13779,
+          "valid": 2240,
+          "fraction": 0.1626
+        },
+        "DTC": {
+          "n": 13779,
+          "valid": 8802,
+          "fraction": 0.6388
+        },
+        "RDEP": {
+          "n": 13779,
+          "valid": 13771,
+          "fraction": 0.9994
+        },
+        "RSHA": {
+          "n": 13779,
+          "valid": 8923,
+          "fraction": 0.6476
+        },
+        "RMED": {
+          "n": 13779,
+          "valid": 13761,
+          "fraction": 0.9987
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13779,
+          "valid": 8682,
+          "fraction": 0.6301
+        }
+      }
+    },
+    {
+      "file": "31_4-5.las",
+      "well": "31_4-5",
+      "n_rows": 18352,
+      "step_m": 0.152,
+      "start_m": 144.82879639,
+      "stop_m": 2934.2333984,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18352,
+          "valid": 18296,
+          "fraction": 0.9969
+        },
+        "RHOB": {
+          "n": 18352,
+          "valid": 13288,
+          "fraction": 0.7241
+        },
+        "NPHI": {
+          "n": 18352,
+          "valid": 6474,
+          "fraction": 0.3528
+        },
+        "DTC": {
+          "n": 18352,
+          "valid": 17504,
+          "fraction": 0.9538
+        },
+        "RDEP": {
+          "n": 18352,
+          "valid": 17627,
+          "fraction": 0.9605
+        },
+        "RSHA": {
+          "n": 18352,
+          "valid": 2185,
+          "fraction": 0.1191
+        },
+        "RMED": {
+          "n": 18352,
+          "valid": 17575,
+          "fraction": 0.9577
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18352,
+          "valid": 13400,
+          "fraction": 0.7302
+        }
+      }
+    },
+    {
+      "file": "31_5-4 S.las",
+      "well": "31_5-4 S",
+      "n_rows": 11467,
+      "step_m": 0.152,
+      "start_m": 164.79,
+      "stop_m": 1907.6397705,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 11467,
+          "valid": 11317,
+          "fraction": 0.9869
+        },
+        "RHOB": {
+          "n": 11467,
+          "valid": 2417,
+          "fraction": 0.2108
+        },
+        "NPHI": {
+          "n": 11467,
+          "valid": 2432,
+          "fraction": 0.2121
+        },
+        "DTC": {
+          "n": 11467,
+          "valid": 1772,
+          "fraction": 0.1545
+        },
+        "RDEP": {
+          "n": 11467,
+          "valid": 9675,
+          "fraction": 0.8437
+        },
+        "RSHA": {
+          "n": 11467,
+          "valid": 2440,
+          "fraction": 0.2128
+        },
+        "RMED": {
+          "n": 11467,
+          "valid": 2457,
+          "fraction": 0.2143
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 11467,
+          "valid": 11315,
+          "fraction": 0.9867
+        }
+      }
+    },
+    {
+      "file": "31_6-5.las",
+      "well": "31_6-5",
+      "n_rows": 11597,
+      "step_m": 0.152,
+      "start_m": 326.375,
+      "stop_m": 2088.9997559,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 11597,
+          "valid": 11505,
+          "fraction": 0.9921
+        },
+        "RHOB": {
+          "n": 11597,
+          "valid": 9471,
+          "fraction": 0.8167
+        },
+        "NPHI": {
+          "n": 11597,
+          "valid": 4508,
+          "fraction": 0.3887
+        },
+        "DTC": {
+          "n": 11597,
+          "valid": 11151,
+          "fraction": 0.9615
+        },
+        "RDEP": {
+          "n": 11597,
+          "valid": 11266,
+          "fraction": 0.9715
+        },
+        "RSHA": {
+          "n": 11597,
+          "valid": 1326,
+          "fraction": 0.1143
+        },
+        "RMED": {
+          "n": 11597,
+          "valid": 11236,
+          "fraction": 0.9689
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 11597,
+          "valid": 11098,
+          "fraction": 0.957
+        }
+      }
+    },
+    {
+      "file": "31_6-8.las",
+      "well": "31_6-8",
+      "n_rows": 9727,
+      "step_m": 0.152,
+      "start_m": 668.93243408,
+      "stop_m": 2147.347168,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 9727,
+          "valid": 9680,
+          "fraction": 0.9952
+        },
+        "RHOB": {
+          "n": 9727,
+          "valid": 9726,
+          "fraction": 0.9999
+        },
+        "NPHI": {
+          "n": 9727,
+          "valid": 9726,
+          "fraction": 0.9999
+        },
+        "DTC": {
+          "n": 9727,
+          "valid": 9488,
+          "fraction": 0.9754
+        },
+        "RDEP": {
+          "n": 9727,
+          "valid": 9685,
+          "fraction": 0.9957
+        },
+        "RSHA": {
+          "n": 9727,
+          "valid": 1492,
+          "fraction": 0.1534
+        },
+        "RMED": {
+          "n": 9727,
+          "valid": 9661,
+          "fraction": 0.9932
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 9727,
+          "valid": 9533,
+          "fraction": 0.9801
+        }
+      }
+    },
+    {
+      "file": "32_2-1.las",
+      "well": "32_2-1",
+      "n_rows": 6059,
+      "step_m": 0.152,
+      "start_m": 379.0676,
+      "stop_m": 1300.0208,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 6059,
+          "valid": 5761,
+          "fraction": 0.9508
+        },
+        "RHOB": {
+          "n": 6059,
+          "valid": 2955,
+          "fraction": 0.4877
+        },
+        "NPHI": {
+          "n": 6059,
+          "valid": 2993,
+          "fraction": 0.494
+        },
+        "DTC": {
+          "n": 6059,
+          "valid": 4530,
+          "fraction": 0.7476
+        },
+        "RDEP": {
+          "n": 6059,
+          "valid": 5678,
+          "fraction": 0.9371
+        },
+        "RSHA": {
+          "n": 6059,
+          "valid": 5604,
+          "fraction": 0.9249
+        },
+        "RMED": {
+          "n": 6059,
+          "valid": 5604,
+          "fraction": 0.9249
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 6059,
+          "valid": 3049,
+          "fraction": 0.5032
+        }
+      }
+    },
+    {
+      "file": "33_5-2.las",
+      "well": "33_5-2",
+      "n_rows": 27702,
+      "step_m": 0.152,
+      "start_m": 324.15206909,
+      "stop_m": 4534.7108,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 27702,
+          "valid": 27641,
+          "fraction": 0.9978
+        },
+        "RHOB": {
+          "n": 27702,
+          "valid": 22134,
+          "fraction": 0.799
+        },
+        "NPHI": {
+          "n": 27702,
+          "valid": 4152,
+          "fraction": 0.1499
+        },
+        "DTC": {
+          "n": 27702,
+          "valid": 27108,
+          "fraction": 0.9786
+        },
+        "RDEP": {
+          "n": 27702,
+          "valid": 27468,
+          "fraction": 0.9916
+        },
+        "RSHA": {
+          "n": 27702,
+          "valid": 2556,
+          "fraction": 0.0923
+        },
+        "RMED": {
+          "n": 27702,
+          "valid": 27596,
+          "fraction": 0.9962
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 27702,
+          "valid": 4091,
+          "fraction": 0.1477
+        }
+      }
+    },
+    {
+      "file": "33_6-3 S.las",
+      "well": "33_6-3 S",
+      "n_rows": 26868,
+      "step_m": 0.152,
+      "start_m": 360.1212,
+      "stop_m": 4443.9839,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 26868,
+          "valid": 26383,
+          "fraction": 0.9819
+        },
+        "RHOB": {
+          "n": 26868,
+          "valid": 4155,
+          "fraction": 0.1546
+        },
+        "NPHI": {
+          "n": 26868,
+          "valid": 12366,
+          "fraction": 0.4603
+        },
+        "DTC": {
+          "n": 26868,
+          "valid": 20011,
+          "fraction": 0.7448
+        },
+        "RDEP": {
+          "n": 26868,
+          "valid": 26381,
+          "fraction": 0.9819
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 26868,
+          "valid": 26312,
+          "fraction": 0.9793
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 26868,
+          "valid": 12681,
+          "fraction": 0.472
+        }
+      }
+    },
+    {
+      "file": "33_9-1.las",
+      "well": "33_9-1",
+      "n_rows": 17606,
+      "step_m": 0.152,
+      "start_m": 457.61,
+      "stop_m": 3133.6000977,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 17606,
+          "valid": 17459,
+          "fraction": 0.9917
+        },
+        "RHOB": {
+          "n": 17606,
+          "valid": 10415,
+          "fraction": 0.5916
+        },
+        "NPHI": {
+          "n": 17606,
+          "valid": 10385,
+          "fraction": 0.5899
+        },
+        "DTC": {
+          "n": 17606,
+          "valid": 17456,
+          "fraction": 0.9915
+        },
+        "RDEP": {
+          "n": 17606,
+          "valid": 17537,
+          "fraction": 0.9961
+        },
+        "RSHA": {
+          "n": 17606,
+          "valid": 2034,
+          "fraction": 0.1155
+        },
+        "RMED": {
+          "n": 17606,
+          "valid": 17527,
+          "fraction": 0.9955
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 17606,
+          "valid": 17278,
+          "fraction": 0.9814
+        }
+      }
+    },
+    {
+      "file": "33_9-17.las",
+      "well": "33_9-17",
+      "n_rows": 19771,
+      "step_m": 0.152,
+      "start_m": 254.60998535,
+      "stop_m": 3259.7324219,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19771,
+          "valid": 19390,
+          "fraction": 0.9807
+        },
+        "RHOB": {
+          "n": 19771,
+          "valid": 17535,
+          "fraction": 0.8869
+        },
+        "NPHI": {
+          "n": 19771,
+          "valid": 17535,
+          "fraction": 0.8869
+        },
+        "DTC": {
+          "n": 19771,
+          "valid": 17408,
+          "fraction": 0.8805
+        },
+        "RDEP": {
+          "n": 19771,
+          "valid": 19592,
+          "fraction": 0.9909
+        },
+        "RSHA": {
+          "n": 19771,
+          "valid": 19555,
+          "fraction": 0.9891
+        },
+        "RMED": {
+          "n": 19771,
+          "valid": 17675,
+          "fraction": 0.894
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19771,
+          "valid": 17869,
+          "fraction": 0.9038
+        }
+      }
+    },
+    {
+      "file": "34_10-16 R.las",
+      "well": "34_10-16 R",
+      "n_rows": 25579,
+      "step_m": 0.152,
+      "start_m": 163.15200806,
+      "stop_m": 4051.03,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 25579,
+          "valid": 25520,
+          "fraction": 0.9977
+        },
+        "RHOB": {
+          "n": 25579,
+          "valid": 25186,
+          "fraction": 0.9846
+        },
+        "NPHI": {
+          "n": 25579,
+          "valid": 16718,
+          "fraction": 0.6536
+        },
+        "DTC": {
+          "n": 25579,
+          "valid": 25030,
+          "fraction": 0.9785
+        },
+        "RDEP": {
+          "n": 25579,
+          "valid": 25187,
+          "fraction": 0.9847
+        },
+        "RSHA": {
+          "n": 25579,
+          "valid": 25043,
+          "fraction": 0.979
+        },
+        "RMED": {
+          "n": 25579,
+          "valid": 25149,
+          "fraction": 0.9832
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 25579,
+          "valid": 25095,
+          "fraction": 0.9811
+        }
+      }
+    },
+    {
+      "file": "34_10-19.las",
+      "well": "34_10-19",
+      "n_rows": 13238,
+      "step_m": 0.152,
+      "start_m": 211.0,
+      "stop_m": 2223.107666,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 13238,
+          "valid": 13170,
+          "fraction": 0.9949
+        },
+        "RHOB": {
+          "n": 13238,
+          "valid": 12164,
+          "fraction": 0.9189
+        },
+        "NPHI": {
+          "n": 13238,
+          "valid": 12070,
+          "fraction": 0.9118
+        },
+        "DTC": {
+          "n": 13238,
+          "valid": 10184,
+          "fraction": 0.7693
+        },
+        "RDEP": {
+          "n": 13238,
+          "valid": 13227,
+          "fraction": 0.9992
+        },
+        "RSHA": {
+          "n": 13238,
+          "valid": 12835,
+          "fraction": 0.9696
+        },
+        "RMED": {
+          "n": 13238,
+          "valid": 13148,
+          "fraction": 0.9932
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 13238,
+          "valid": 12662,
+          "fraction": 0.9565
+        }
+      }
+    },
+    {
+      "file": "34_10-21.las",
+      "well": "34_10-21",
+      "n_rows": 24926,
+      "step_m": 0.152,
+      "start_m": 226.21040344,
+      "stop_m": 4014.8745117,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24926,
+          "valid": 24866,
+          "fraction": 0.9976
+        },
+        "RHOB": {
+          "n": 24926,
+          "valid": 22493,
+          "fraction": 0.9024
+        },
+        "NPHI": {
+          "n": 24926,
+          "valid": 14049,
+          "fraction": 0.5636
+        },
+        "DTC": {
+          "n": 24926,
+          "valid": 22413,
+          "fraction": 0.8992
+        },
+        "RDEP": {
+          "n": 24926,
+          "valid": 24925,
+          "fraction": 1.0
+        },
+        "RSHA": {
+          "n": 24926,
+          "valid": 22525,
+          "fraction": 0.9037
+        },
+        "RMED": {
+          "n": 24926,
+          "valid": 22520,
+          "fraction": 0.9035
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24926,
+          "valid": 22491,
+          "fraction": 0.9023
+        }
+      }
+    },
+    {
+      "file": "34_10-33.las",
+      "well": "34_10-33",
+      "n_rows": 24490,
+      "step_m": 0.152,
+      "start_m": 156.0,
+      "stop_m": 3878.3757324,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24490,
+          "valid": 24488,
+          "fraction": 0.9999
+        },
+        "RHOB": {
+          "n": 24490,
+          "valid": 23923,
+          "fraction": 0.9768
+        },
+        "NPHI": {
+          "n": 24490,
+          "valid": 4897,
+          "fraction": 0.2
+        },
+        "DTC": {
+          "n": 24490,
+          "valid": 23226,
+          "fraction": 0.9484
+        },
+        "RDEP": {
+          "n": 24490,
+          "valid": 23954,
+          "fraction": 0.9781
+        },
+        "RSHA": {
+          "n": 24490,
+          "valid": 23606,
+          "fraction": 0.9639
+        },
+        "RMED": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24490,
+          "valid": 6046,
+          "fraction": 0.2469
+        }
+      }
+    },
+    {
+      "file": "34_10-35.las",
+      "well": "34_10-35",
+      "n_rows": 26900,
+      "step_m": 0.152,
+      "start_m": 223.375,
+      "stop_m": 4312.125,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 26900,
+          "valid": 26876,
+          "fraction": 0.9991
+        },
+        "RHOB": {
+          "n": 26900,
+          "valid": 20522,
+          "fraction": 0.7629
+        },
+        "NPHI": {
+          "n": 26900,
+          "valid": 3664,
+          "fraction": 0.1362
+        },
+        "DTC": {
+          "n": 26900,
+          "valid": 21144,
+          "fraction": 0.786
+        },
+        "RDEP": {
+          "n": 26900,
+          "valid": 26878,
+          "fraction": 0.9992
+        },
+        "RSHA": {
+          "n": 26900,
+          "valid": 1126,
+          "fraction": 0.0419
+        },
+        "RMED": {
+          "n": 26900,
+          "valid": 20809,
+          "fraction": 0.7736
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 26900,
+          "valid": 20620,
+          "fraction": 0.7665
+        }
+      }
+    },
+    {
+      "file": "34_11-1.las",
+      "well": "34_11-1",
+      "n_rows": 29690,
+      "step_m": 0.152,
+      "start_m": 65.875,
+      "stop_m": 4578.7543945,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 29690,
+          "valid": 28364,
+          "fraction": 0.9553
+        },
+        "RHOB": {
+          "n": 29690,
+          "valid": 4263,
+          "fraction": 0.1436
+        },
+        "NPHI": {
+          "n": 29690,
+          "valid": 4232,
+          "fraction": 0.1425
+        },
+        "DTC": {
+          "n": 29690,
+          "valid": 6259,
+          "fraction": 0.2108
+        },
+        "RDEP": {
+          "n": 29690,
+          "valid": 28308,
+          "fraction": 0.9535
+        },
+        "RSHA": {
+          "n": 29690,
+          "valid": 28201,
+          "fraction": 0.9498
+        },
+        "RMED": {
+          "n": 29690,
+          "valid": 28308,
+          "fraction": 0.9535
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 29690,
+          "valid": 4226,
+          "fraction": 0.1423
+        }
+      }
+    },
+    {
+      "file": "34_11-2 S.las",
+      "well": "34_11-2 S",
+      "n_rows": 29422,
+      "step_m": 0.152,
+      "start_m": 286.0,
+      "stop_m": 4758.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "ROPA",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 29422,
+          "valid": 28945,
+          "fraction": 0.9838
+        },
+        "RHOB": {
+          "n": 29422,
+          "valid": 24053,
+          "fraction": 0.8175
+        },
+        "NPHI": {
+          "n": 29422,
+          "valid": 11900,
+          "fraction": 0.4045
+        },
+        "DTC": {
+          "n": 29422,
+          "valid": 23712,
+          "fraction": 0.8059
+        },
+        "RDEP": {
+          "n": 29422,
+          "valid": 23606,
+          "fraction": 0.8023
+        },
+        "RSHA": {
+          "n": 29422,
+          "valid": 5143,
+          "fraction": 0.1748
+        },
+        "RMED": {
+          "n": 29422,
+          "valid": 28888,
+          "fraction": 0.9819
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 29422,
+          "valid": 23310,
+          "fraction": 0.7923
+        }
+      }
+    },
+    {
+      "file": "34_12-1.las",
+      "well": "34_12-1",
+      "n_rows": 28434,
+      "step_m": 0.152,
+      "start_m": 398.11758423,
+      "stop_m": 4720.0293,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 28434,
+          "valid": 28344,
+          "fraction": 0.9968
+        },
+        "RHOB": {
+          "n": 28434,
+          "valid": 9768,
+          "fraction": 0.3435
+        },
+        "NPHI": {
+          "n": 28434,
+          "valid": 9810,
+          "fraction": 0.345
+        },
+        "DTC": {
+          "n": 28434,
+          "valid": 28245,
+          "fraction": 0.9934
+        },
+        "RDEP": {
+          "n": 28434,
+          "valid": 28363,
+          "fraction": 0.9975
+        },
+        "RSHA": {
+          "n": 28434,
+          "valid": 9918,
+          "fraction": 0.3488
+        },
+        "RMED": {
+          "n": 28434,
+          "valid": 28324,
+          "fraction": 0.9961
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 28434,
+          "valid": 9350,
+          "fraction": 0.3288
+        }
+      }
+    },
+    {
+      "file": "34_2-4.las",
+      "well": "34_2-4",
+      "n_rows": 24318,
+      "step_m": 0.152,
+      "start_m": 419.60943604,
+      "stop_m": 4115.92,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24318,
+          "valid": 24239,
+          "fraction": 0.9968
+        },
+        "RHOB": {
+          "n": 24318,
+          "valid": 13181,
+          "fraction": 0.542
+        },
+        "NPHI": {
+          "n": 24318,
+          "valid": 3702,
+          "fraction": 0.1522
+        },
+        "DTC": {
+          "n": 24318,
+          "valid": 23607,
+          "fraction": 0.9708
+        },
+        "RDEP": {
+          "n": 24318,
+          "valid": 23601,
+          "fraction": 0.9705
+        },
+        "RSHA": {
+          "n": 24318,
+          "valid": 13124,
+          "fraction": 0.5397
+        },
+        "RMED": {
+          "n": 24318,
+          "valid": 23601,
+          "fraction": 0.9705
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24318,
+          "valid": 23404,
+          "fraction": 0.9624
+        }
+      }
+    },
+    {
+      "file": "34_3-1 A.las",
+      "well": "34_3-1 A",
+      "n_rows": 24513,
+      "step_m": 0.152,
+      "start_m": 436.21671456,
+      "stop_m": 4162.0928,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24513,
+          "valid": 24461,
+          "fraction": 0.9979
+        },
+        "RHOB": {
+          "n": 24513,
+          "valid": 2408,
+          "fraction": 0.0982
+        },
+        "NPHI": {
+          "n": 24513,
+          "valid": 2381,
+          "fraction": 0.0971
+        },
+        "DTC": {
+          "n": 24513,
+          "valid": 12990,
+          "fraction": 0.5299
+        },
+        "RDEP": {
+          "n": 24513,
+          "valid": 24449,
+          "fraction": 0.9974
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 24513,
+          "valid": 24311,
+          "fraction": 0.9918
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24513,
+          "valid": 2251,
+          "fraction": 0.0918
+        }
+      }
+    },
+    {
+      "file": "34_3-2 S.las",
+      "well": "34_3-2 S",
+      "n_rows": 25699,
+      "step_m": 0.152,
+      "start_m": 426.0068,
+      "stop_m": 4332.1713867,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 25699,
+          "valid": 25610,
+          "fraction": 0.9965
+        },
+        "RHOB": {
+          "n": 25699,
+          "valid": 12444,
+          "fraction": 0.4842
+        },
+        "NPHI": {
+          "n": 25699,
+          "valid": 12632,
+          "fraction": 0.4915
+        },
+        "DTC": {
+          "n": 25699,
+          "valid": 25534,
+          "fraction": 0.9936
+        },
+        "RDEP": {
+          "n": 25699,
+          "valid": 25691,
+          "fraction": 0.9997
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 25699,
+          "valid": 25605,
+          "fraction": 0.9963
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 25699,
+          "valid": 12229,
+          "fraction": 0.4759
+        }
+      }
+    },
+    {
+      "file": "34_3-3 A.las",
+      "well": "34_3-3 A",
+      "n_rows": 30228,
+      "step_m": 0.152,
+      "start_m": 418.38597552,
+      "stop_m": 5012.942,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 30228,
+          "valid": 30190,
+          "fraction": 0.9987
+        },
+        "RHOB": {
+          "n": 30228,
+          "valid": 17945,
+          "fraction": 0.5937
+        },
+        "NPHI": {
+          "n": 30228,
+          "valid": 17914,
+          "fraction": 0.5926
+        },
+        "DTC": {
+          "n": 30228,
+          "valid": 29756,
+          "fraction": 0.9844
+        },
+        "RDEP": {
+          "n": 30228,
+          "valid": 30169,
+          "fraction": 0.998
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 30228,
+          "valid": 30056,
+          "fraction": 0.9943
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 30228,
+          "valid": 18190,
+          "fraction": 0.6018
+        }
+      }
+    },
+    {
+      "file": "34_4-10 R.las",
+      "well": "34_4-10 R",
+      "n_rows": 25514,
+      "step_m": 0.152,
+      "start_m": 372.81846696,
+      "stop_m": 4250.89,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 25514,
+          "valid": 25407,
+          "fraction": 0.9958
+        },
+        "RHOB": {
+          "n": 25514,
+          "valid": 3729,
+          "fraction": 0.1462
+        },
+        "NPHI": {
+          "n": 25514,
+          "valid": 3824,
+          "fraction": 0.1499
+        },
+        "DTC": {
+          "n": 25514,
+          "valid": 12274,
+          "fraction": 0.4811
+        },
+        "RDEP": {
+          "n": 25514,
+          "valid": 25406,
+          "fraction": 0.9958
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 25514,
+          "valid": 25271,
+          "fraction": 0.9905
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 25514,
+          "valid": 3880,
+          "fraction": 0.1521
+        }
+      }
+    },
+    {
+      "file": "34_5-1 A.las",
+      "well": "34_5-1 A",
+      "n_rows": 26343,
+      "step_m": 0.152,
+      "start_m": 411.98599243,
+      "stop_m": 4415.9912,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 26343,
+          "valid": 26327,
+          "fraction": 0.9994
+        },
+        "RHOB": {
+          "n": 26343,
+          "valid": 14688,
+          "fraction": 0.5576
+        },
+        "NPHI": {
+          "n": 26343,
+          "valid": 14789,
+          "fraction": 0.5614
+        },
+        "DTC": {
+          "n": 26343,
+          "valid": 21361,
+          "fraction": 0.8109
+        },
+        "RDEP": {
+          "n": 26343,
+          "valid": 25879,
+          "fraction": 0.9824
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 26343,
+          "valid": 25739,
+          "fraction": 0.9771
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 26343,
+          "valid": 14592,
+          "fraction": 0.5539
+        }
+      }
+    },
+    {
+      "file": "34_5-1 S.las",
+      "well": "34_5-1 S",
+      "n_rows": 22969,
+      "step_m": 0.152,
+      "start_m": 411.986,
+      "stop_m": 3903.1652,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 22969,
+          "valid": 22961,
+          "fraction": 0.9997
+        },
+        "RHOB": {
+          "n": 22969,
+          "valid": 11468,
+          "fraction": 0.4993
+        },
+        "NPHI": {
+          "n": 22969,
+          "valid": 2241,
+          "fraction": 0.0976
+        },
+        "DTC": {
+          "n": 22969,
+          "valid": 19069,
+          "fraction": 0.8302
+        },
+        "RDEP": {
+          "n": 22969,
+          "valid": 22584,
+          "fraction": 0.9832
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 22969,
+          "valid": 22427,
+          "fraction": 0.9764
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 22969,
+          "valid": 2273,
+          "fraction": 0.099
+        }
+      }
+    },
+    {
+      "file": "34_6-1 S.las",
+      "well": "34_6-1 S",
+      "n_rows": 26090,
+      "step_m": 0.152,
+      "start_m": 406.0424,
+      "stop_m": 4371.58,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 26090,
+          "valid": 26036,
+          "fraction": 0.9979
+        },
+        "RHOB": {
+          "n": 26090,
+          "valid": 6386,
+          "fraction": 0.2448
+        },
+        "NPHI": {
+          "n": 26090,
+          "valid": 6626,
+          "fraction": 0.254
+        },
+        "DTC": {
+          "n": 26090,
+          "valid": 7045,
+          "fraction": 0.27
+        },
+        "RDEP": {
+          "n": 26090,
+          "valid": 19798,
+          "fraction": 0.7588
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 26090,
+          "valid": 19720,
+          "fraction": 0.7558
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 26090,
+          "valid": 6479,
+          "fraction": 0.2483
+        }
+      }
+    },
+    {
+      "file": "34_7-13.las",
+      "well": "34_7-13",
+      "n_rows": 16891,
+      "step_m": 0.152,
+      "start_m": 433.625,
+      "stop_m": 3001.0002441,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16891,
+          "valid": 16767,
+          "fraction": 0.9927
+        },
+        "RHOB": {
+          "n": 16891,
+          "valid": 7765,
+          "fraction": 0.4597
+        },
+        "NPHI": {
+          "n": 16891,
+          "valid": 10439,
+          "fraction": 0.618
+        },
+        "DTC": {
+          "n": 16891,
+          "valid": 13648,
+          "fraction": 0.808
+        },
+        "RDEP": {
+          "n": 16891,
+          "valid": 16851,
+          "fraction": 0.9976
+        },
+        "RSHA": {
+          "n": 16891,
+          "valid": 2102,
+          "fraction": 0.1244
+        },
+        "RMED": {
+          "n": 16891,
+          "valid": 13394,
+          "fraction": 0.793
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16891,
+          "valid": 3900,
+          "fraction": 0.2309
+        }
+      }
+    },
+    {
+      "file": "34_7-20.las",
+      "well": "34_7-20",
+      "n_rows": 18193,
+      "step_m": 0.152,
+      "start_m": 417.47,
+      "stop_m": 3182.7705078,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18193,
+          "valid": 18192,
+          "fraction": 0.9999
+        },
+        "RHOB": {
+          "n": 18193,
+          "valid": 13224,
+          "fraction": 0.7269
+        },
+        "NPHI": {
+          "n": 18193,
+          "valid": 9081,
+          "fraction": 0.4991
+        },
+        "DTC": {
+          "n": 18193,
+          "valid": 13329,
+          "fraction": 0.7326
+        },
+        "RDEP": {
+          "n": 18193,
+          "valid": 18173,
+          "fraction": 0.9989
+        },
+        "RSHA": {
+          "n": 18193,
+          "valid": 13066,
+          "fraction": 0.7182
+        },
+        "RMED": {
+          "n": 18193,
+          "valid": 13326,
+          "fraction": 0.7325
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18193,
+          "valid": 13157,
+          "fraction": 0.7232
+        }
+      }
+    },
+    {
+      "file": "34_7-21.las",
+      "well": "34_7-21",
+      "n_rows": 18463,
+      "step_m": 0.152,
+      "start_m": 212.75,
+      "stop_m": 3019.0,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18463,
+          "valid": 18414,
+          "fraction": 0.9973
+        },
+        "RHOB": {
+          "n": 18463,
+          "valid": 12822,
+          "fraction": 0.6945
+        },
+        "NPHI": {
+          "n": 18463,
+          "valid": 7855,
+          "fraction": 0.4254
+        },
+        "DTC": {
+          "n": 18463,
+          "valid": 12798,
+          "fraction": 0.6932
+        },
+        "RDEP": {
+          "n": 18463,
+          "valid": 18398,
+          "fraction": 0.9965
+        },
+        "RSHA": {
+          "n": 18463,
+          "valid": 8089,
+          "fraction": 0.4381
+        },
+        "RMED": {
+          "n": 18463,
+          "valid": 12696,
+          "fraction": 0.6876
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18463,
+          "valid": 12424,
+          "fraction": 0.6729
+        }
+      }
+    },
+    {
+      "file": "34_8-1.las",
+      "well": "34_8-1",
+      "n_rows": 21558,
+      "step_m": 0.152,
+      "start_m": 345.30502319,
+      "stop_m": 3621.987,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21558,
+          "valid": 21467,
+          "fraction": 0.9958
+        },
+        "RHOB": {
+          "n": 21558,
+          "valid": 17890,
+          "fraction": 0.8299
+        },
+        "NPHI": {
+          "n": 21558,
+          "valid": 12475,
+          "fraction": 0.5787
+        },
+        "DTC": {
+          "n": 21558,
+          "valid": 20806,
+          "fraction": 0.9651
+        },
+        "RDEP": {
+          "n": 21558,
+          "valid": 21528,
+          "fraction": 0.9986
+        },
+        "RSHA": {
+          "n": 21558,
+          "valid": 3845,
+          "fraction": 0.1784
+        },
+        "RMED": {
+          "n": 21558,
+          "valid": 21422,
+          "fraction": 0.9937
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21558,
+          "valid": 17938,
+          "fraction": 0.8321
+        }
+      }
+    },
+    {
+      "file": "34_8-3.las",
+      "well": "34_8-3",
+      "n_rows": 19230,
+      "step_m": 0.152,
+      "start_m": 411.37643433,
+      "stop_m": 3334.2561035,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19230,
+          "valid": 19105,
+          "fraction": 0.9935
+        },
+        "RHOB": {
+          "n": 19230,
+          "valid": 13509,
+          "fraction": 0.7025
+        },
+        "NPHI": {
+          "n": 19230,
+          "valid": 13520,
+          "fraction": 0.7031
+        },
+        "DTC": {
+          "n": 19230,
+          "valid": 13465,
+          "fraction": 0.7002
+        },
+        "RDEP": {
+          "n": 19230,
+          "valid": 19228,
+          "fraction": 0.9999
+        },
+        "RSHA": {
+          "n": 19230,
+          "valid": 13539,
+          "fraction": 0.7041
+        },
+        "RMED": {
+          "n": 19230,
+          "valid": 13541,
+          "fraction": 0.7042
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19230,
+          "valid": 13342,
+          "fraction": 0.6938
+        }
+      }
+    },
+    {
+      "file": "34_8-7 R.las",
+      "well": "34_8-7 R",
+      "n_rows": 35896,
+      "step_m": 0.152,
+      "start_m": 23.0,
+      "stop_m": 5479.0727539,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 35896,
+          "valid": 35895,
+          "fraction": 1.0
+        },
+        "RHOB": {
+          "n": 35896,
+          "valid": 35896,
+          "fraction": 1.0
+        },
+        "NPHI": {
+          "n": 35896,
+          "valid": 14702,
+          "fraction": 0.4096
+        },
+        "DTC": {
+          "n": 35896,
+          "valid": 35896,
+          "fraction": 1.0
+        },
+        "RDEP": {
+          "n": 35896,
+          "valid": 33582,
+          "fraction": 0.9355
+        },
+        "RSHA": {
+          "n": 35896,
+          "valid": 7754,
+          "fraction": 0.216
+        },
+        "RMED": {
+          "n": 35896,
+          "valid": 26136,
+          "fraction": 0.7281
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 35896,
+          "valid": 7084,
+          "fraction": 0.1973
+        }
+      }
+    },
+    {
+      "file": "35_11-1.las",
+      "well": "35_11-1",
+      "n_rows": 19692,
+      "step_m": 0.152,
+      "start_m": 373.4571228,
+      "stop_m": 3366.5646973,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19692,
+          "valid": 19633,
+          "fraction": 0.997
+        },
+        "RHOB": {
+          "n": 19692,
+          "valid": 15618,
+          "fraction": 0.7931
+        },
+        "NPHI": {
+          "n": 19692,
+          "valid": 8893,
+          "fraction": 0.4516
+        },
+        "DTC": {
+          "n": 19692,
+          "valid": 18743,
+          "fraction": 0.9518
+        },
+        "RDEP": {
+          "n": 19692,
+          "valid": 19690,
+          "fraction": 0.9999
+        },
+        "RSHA": {
+          "n": 19692,
+          "valid": 6281,
+          "fraction": 0.319
+        },
+        "RMED": {
+          "n": 19692,
+          "valid": 19660,
+          "fraction": 0.9984
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19692,
+          "valid": 15632,
+          "fraction": 0.7938
+        }
+      }
+    },
+    {
+      "file": "35_11-10.las",
+      "well": "35_11-10",
+      "n_rows": 16967,
+      "step_m": 0.152,
+      "start_m": 371.99987793,
+      "stop_m": 2950.9130859,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16967,
+          "valid": 16872,
+          "fraction": 0.9944
+        },
+        "RHOB": {
+          "n": 16967,
+          "valid": 11381,
+          "fraction": 0.6708
+        },
+        "NPHI": {
+          "n": 16967,
+          "valid": 11349,
+          "fraction": 0.6689
+        },
+        "DTC": {
+          "n": 16967,
+          "valid": 11618,
+          "fraction": 0.6847
+        },
+        "RDEP": {
+          "n": 16967,
+          "valid": 16914,
+          "fraction": 0.9969
+        },
+        "RSHA": {
+          "n": 16967,
+          "valid": 16914,
+          "fraction": 0.9969
+        },
+        "RMED": {
+          "n": 16967,
+          "valid": 16455,
+          "fraction": 0.9698
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16967,
+          "valid": 6206,
+          "fraction": 0.3658
+        }
+      }
+    },
+    {
+      "file": "35_11-11.las",
+      "well": "35_11-11",
+      "n_rows": 18710,
+      "step_m": 0.152,
+      "start_m": 382.1156,
+      "stop_m": 3225.8994,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18710,
+          "valid": 18681,
+          "fraction": 0.9985
+        },
+        "RHOB": {
+          "n": 18710,
+          "valid": 12973,
+          "fraction": 0.6934
+        },
+        "NPHI": {
+          "n": 18710,
+          "valid": 13137,
+          "fraction": 0.7021
+        },
+        "DTC": {
+          "n": 18710,
+          "valid": 12871,
+          "fraction": 0.6879
+        },
+        "RDEP": {
+          "n": 18710,
+          "valid": 18673,
+          "fraction": 0.998
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 18710,
+          "valid": 18621,
+          "fraction": 0.9952
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18710,
+          "valid": 12844,
+          "fraction": 0.6865
+        }
+      }
+    },
+    {
+      "file": "35_11-12.las",
+      "well": "35_11-12",
+      "n_rows": 19875,
+      "step_m": 0.152,
+      "start_m": 359.97,
+      "stop_m": 3380.84,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19875,
+          "valid": 19672,
+          "fraction": 0.9898
+        },
+        "RHOB": {
+          "n": 19875,
+          "valid": 3445,
+          "fraction": 0.1733
+        },
+        "NPHI": {
+          "n": 19875,
+          "valid": 3786,
+          "fraction": 0.1905
+        },
+        "DTC": {
+          "n": 19875,
+          "valid": 10668,
+          "fraction": 0.5368
+        },
+        "RDEP": {
+          "n": 19875,
+          "valid": 19582,
+          "fraction": 0.9853
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 19875,
+          "valid": 19507,
+          "fraction": 0.9815
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19875,
+          "valid": 19112,
+          "fraction": 0.9616
+        }
+      }
+    },
+    {
+      "file": "35_11-13.las",
+      "well": "35_11-13",
+      "n_rows": 19119,
+      "step_m": 0.152,
+      "start_m": 386.078,
+      "stop_m": 3292.0413,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19119,
+          "valid": 18812,
+          "fraction": 0.9839
+        },
+        "RHOB": {
+          "n": 19119,
+          "valid": 2201,
+          "fraction": 0.1151
+        },
+        "NPHI": {
+          "n": 19119,
+          "valid": 5827,
+          "fraction": 0.3048
+        },
+        "DTC": {
+          "n": 19119,
+          "valid": 4190,
+          "fraction": 0.2192
+        },
+        "RDEP": {
+          "n": 19119,
+          "valid": 18534,
+          "fraction": 0.9694
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 19119,
+          "valid": 18374,
+          "fraction": 0.961
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19119,
+          "valid": 2430,
+          "fraction": 0.1271
+        }
+      }
+    },
+    {
+      "file": "35_11-15 S.las",
+      "well": "35_11-15 S",
+      "n_rows": 18832,
+      "step_m": 0.152,
+      "start_m": 390.0404,
+      "stop_m": 3252.4172363,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18832,
+          "valid": 18252,
+          "fraction": 0.9692
+        },
+        "RHOB": {
+          "n": 18832,
+          "valid": 2228,
+          "fraction": 0.1183
+        },
+        "NPHI": {
+          "n": 18832,
+          "valid": 2656,
+          "fraction": 0.141
+        },
+        "DTC": {
+          "n": 18832,
+          "valid": 4868,
+          "fraction": 0.2585
+        },
+        "RDEP": {
+          "n": 18832,
+          "valid": 18175,
+          "fraction": 0.9651
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 18832,
+          "valid": 18004,
+          "fraction": 0.956
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18832,
+          "valid": 2596,
+          "fraction": 0.1379
+        }
+      }
+    },
+    {
+      "file": "35_11-5.las",
+      "well": "35_11-5",
+      "n_rows": 21963,
+      "step_m": 0.152,
+      "start_m": 443.22799683,
+      "stop_m": 3781.5500488,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21963,
+          "valid": 21794,
+          "fraction": 0.9923
+        },
+        "RHOB": {
+          "n": 21963,
+          "valid": 18507,
+          "fraction": 0.8426
+        },
+        "NPHI": {
+          "n": 21963,
+          "valid": 7392,
+          "fraction": 0.3366
+        },
+        "DTC": {
+          "n": 21963,
+          "valid": 18204,
+          "fraction": 0.8288
+        },
+        "RDEP": {
+          "n": 21963,
+          "valid": 21951,
+          "fraction": 0.9995
+        },
+        "RSHA": {
+          "n": 21963,
+          "valid": 7392,
+          "fraction": 0.3366
+        },
+        "RMED": {
+          "n": 21963,
+          "valid": 18637,
+          "fraction": 0.8486
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21963,
+          "valid": 21770,
+          "fraction": 0.9912
+        }
+      }
+    },
+    {
+      "file": "35_11-6.las",
+      "well": "35_11-6",
+      "n_rows": 23734,
+      "step_m": 0.152,
+      "start_m": 389.9916,
+      "stop_m": 3997.5008,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 23734,
+          "valid": 23551,
+          "fraction": 0.9923
+        },
+        "RHOB": {
+          "n": 23734,
+          "valid": 23661,
+          "fraction": 0.9969
+        },
+        "NPHI": {
+          "n": 23734,
+          "valid": 13337,
+          "fraction": 0.5619
+        },
+        "DTC": {
+          "n": 23734,
+          "valid": 19755,
+          "fraction": 0.8324
+        },
+        "RDEP": {
+          "n": 23734,
+          "valid": 23147,
+          "fraction": 0.9753
+        },
+        "RSHA": {
+          "n": 23734,
+          "valid": 8568,
+          "fraction": 0.361
+        },
+        "RMED": {
+          "n": 23734,
+          "valid": 23673,
+          "fraction": 0.9974
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 23734,
+          "valid": 23674,
+          "fraction": 0.9975
+        }
+      }
+    },
+    {
+      "file": "35_11-7.las",
+      "well": "35_11-7",
+      "n_rows": 16547,
+      "step_m": 0.152,
+      "start_m": 385.75,
+      "stop_m": 2900.78125,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16547,
+          "valid": 16403,
+          "fraction": 0.9913
+        },
+        "RHOB": {
+          "n": 16547,
+          "valid": 13088,
+          "fraction": 0.791
+        },
+        "NPHI": {
+          "n": 16547,
+          "valid": 7438,
+          "fraction": 0.4495
+        },
+        "DTC": {
+          "n": 16547,
+          "valid": 12757,
+          "fraction": 0.771
+        },
+        "RDEP": {
+          "n": 16547,
+          "valid": 16542,
+          "fraction": 0.9997
+        },
+        "RSHA": {
+          "n": 16547,
+          "valid": 7512,
+          "fraction": 0.454
+        },
+        "RMED": {
+          "n": 16547,
+          "valid": 13227,
+          "fraction": 0.7994
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16547,
+          "valid": 13005,
+          "fraction": 0.7859
+        }
+      }
+    },
+    {
+      "file": "35_12-1.las",
+      "well": "35_12-1",
+      "n_rows": 16777,
+      "step_m": 0.152,
+      "start_m": 477.82281494,
+      "stop_m": 3027.7797852,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16777,
+          "valid": 16609,
+          "fraction": 0.99
+        },
+        "RHOB": {
+          "n": 16777,
+          "valid": 13295,
+          "fraction": 0.7925
+        },
+        "NPHI": {
+          "n": 16777,
+          "valid": 7496,
+          "fraction": 0.4468
+        },
+        "DTC": {
+          "n": 16777,
+          "valid": 13105,
+          "fraction": 0.7811
+        },
+        "RDEP": {
+          "n": 16777,
+          "valid": 16767,
+          "fraction": 0.9994
+        },
+        "RSHA": {
+          "n": 16777,
+          "valid": 13424,
+          "fraction": 0.8001
+        },
+        "RMED": {
+          "n": 16777,
+          "valid": 13486,
+          "fraction": 0.8038
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16777,
+          "valid": 13238,
+          "fraction": 0.7891
+        }
+      }
+    },
+    {
+      "file": "35_3-7 S.las",
+      "well": "35_3-7 S",
+      "n_rows": 24803,
+      "step_m": 0.152,
+      "start_m": 282.09185136,
+      "stop_m": 4052.0112305,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 24803,
+          "valid": 24767,
+          "fraction": 0.9985
+        },
+        "RHOB": {
+          "n": 24803,
+          "valid": 5218,
+          "fraction": 0.2104
+        },
+        "NPHI": {
+          "n": 24803,
+          "valid": 5370,
+          "fraction": 0.2165
+        },
+        "DTC": {
+          "n": 24803,
+          "valid": 21308,
+          "fraction": 0.8591
+        },
+        "RDEP": {
+          "n": 24803,
+          "valid": 24783,
+          "fraction": 0.9992
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 24803,
+          "valid": 24566,
+          "fraction": 0.9904
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 24803,
+          "valid": 5087,
+          "fraction": 0.2051
+        }
+      }
+    },
+    {
+      "file": "35_4-1.las",
+      "well": "35_4-1",
+      "n_rows": 29967,
+      "step_m": 0.152,
+      "start_m": 403.604,
+      "stop_m": 4958.5352,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 29967,
+          "valid": 29956,
+          "fraction": 0.9996
+        },
+        "RHOB": {
+          "n": 29967,
+          "valid": 21424,
+          "fraction": 0.7149
+        },
+        "NPHI": {
+          "n": 29967,
+          "valid": 29430,
+          "fraction": 0.9821
+        },
+        "DTC": {
+          "n": 29967,
+          "valid": 28314,
+          "fraction": 0.9448
+        },
+        "RDEP": {
+          "n": 29967,
+          "valid": 29838,
+          "fraction": 0.9957
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 29967,
+          "valid": 29779,
+          "fraction": 0.9937
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 29967,
+          "valid": 20825,
+          "fraction": 0.6949
+        }
+      }
+    },
+    {
+      "file": "35_6-2 S.las",
+      "well": "35_6-2 S",
+      "n_rows": 21948,
+      "step_m": 0.152,
+      "start_m": 365.96046696,
+      "stop_m": 3701.9972,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21948,
+          "valid": 21919,
+          "fraction": 0.9987
+        },
+        "RHOB": {
+          "n": 21948,
+          "valid": 13257,
+          "fraction": 0.604
+        },
+        "NPHI": {
+          "n": 21948,
+          "valid": 13492,
+          "fraction": 0.6147
+        },
+        "DTC": {
+          "n": 21948,
+          "valid": 13328,
+          "fraction": 0.6073
+        },
+        "RDEP": {
+          "n": 21948,
+          "valid": 21903,
+          "fraction": 0.9979
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 21948,
+          "valid": 21767,
+          "fraction": 0.9918
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21948,
+          "valid": 13415,
+          "fraction": 0.6112
+        }
+      }
+    },
+    {
+      "file": "35_8-4.las",
+      "well": "35_8-4",
+      "n_rows": 21927,
+      "step_m": 0.152,
+      "start_m": 390.04040527,
+      "stop_m": 3722.876,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RMIC",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21927,
+          "valid": 21919,
+          "fraction": 0.9996
+        },
+        "RHOB": {
+          "n": 21927,
+          "valid": 2712,
+          "fraction": 0.1237
+        },
+        "NPHI": {
+          "n": 21927,
+          "valid": 2703,
+          "fraction": 0.1233
+        },
+        "DTC": {
+          "n": 21927,
+          "valid": 2591,
+          "fraction": 0.1182
+        },
+        "RDEP": {
+          "n": 21927,
+          "valid": 21426,
+          "fraction": 0.9772
+        },
+        "RSHA": {
+          "n": 21927,
+          "valid": 2470,
+          "fraction": 0.1126
+        },
+        "RMED": {
+          "n": 21927,
+          "valid": 20199,
+          "fraction": 0.9212
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21927,
+          "valid": 2709,
+          "fraction": 0.1235
+        }
+      }
+    },
+    {
+      "file": "35_8-6 S.las",
+      "well": "35_8-6 S",
+      "n_rows": 23901,
+      "step_m": 0.152,
+      "start_m": 411.0228,
+      "stop_m": 4043.934,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 23901,
+          "valid": 23419,
+          "fraction": 0.9798
+        },
+        "RHOB": {
+          "n": 23901,
+          "valid": 14255,
+          "fraction": 0.5964
+        },
+        "NPHI": {
+          "n": 23901,
+          "valid": 14197,
+          "fraction": 0.594
+        },
+        "DTC": {
+          "n": 23901,
+          "valid": 2212,
+          "fraction": 0.0925
+        },
+        "RDEP": {
+          "n": 23901,
+          "valid": 23227,
+          "fraction": 0.9718
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 23901,
+          "valid": 22624,
+          "fraction": 0.9466
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 23901,
+          "valid": 14378,
+          "fraction": 0.6016
+        }
+      }
+    },
+    {
+      "file": "35_9-10 S.las",
+      "well": "35_9-10 S",
+      "n_rows": 21271,
+      "step_m": 0.152,
+      "start_m": 388.9736,
+      "stop_m": 3622.1396484,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21271,
+          "valid": 21253,
+          "fraction": 0.9992
+        },
+        "RHOB": {
+          "n": 21271,
+          "valid": 4307,
+          "fraction": 0.2025
+        },
+        "NPHI": {
+          "n": 21271,
+          "valid": 4631,
+          "fraction": 0.2177
+        },
+        "DTC": {
+          "n": 21271,
+          "valid": 17468,
+          "fraction": 0.8212
+        },
+        "RDEP": {
+          "n": 21271,
+          "valid": 20782,
+          "fraction": 0.977
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 21271,
+          "valid": 20689,
+          "fraction": 0.9726
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21271,
+          "valid": 4313,
+          "fraction": 0.2028
+        }
+      }
+    },
+    {
+      "file": "35_9-2.las",
+      "well": "35_9-2",
+      "n_rows": 16599,
+      "step_m": 0.152,
+      "start_m": 368.96035767,
+      "stop_m": 2891.8959961,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "RXO",
+        "RMIC",
+        "SP",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "SGR",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16599,
+          "valid": 14175,
+          "fraction": 0.854
+        },
+        "RHOB": {
+          "n": 16599,
+          "valid": 12347,
+          "fraction": 0.7438
+        },
+        "NPHI": {
+          "n": 16599,
+          "valid": 6704,
+          "fraction": 0.4039
+        },
+        "DTC": {
+          "n": 16599,
+          "valid": 3447,
+          "fraction": 0.2077
+        },
+        "RDEP": {
+          "n": 16599,
+          "valid": 12316,
+          "fraction": 0.742
+        },
+        "RSHA": {
+          "n": 16599,
+          "valid": 2190,
+          "fraction": 0.1319
+        },
+        "RMED": {
+          "n": 16599,
+          "valid": 12336,
+          "fraction": 0.7432
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16599,
+          "valid": 12330,
+          "fraction": 0.7428
+        }
+      }
+    },
+    {
+      "file": "35_9-5.las",
+      "well": "35_9-5",
+      "n_rows": 21206,
+      "step_m": 0.152,
+      "start_m": 307.69558716,
+      "stop_m": 3530.9556,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 21206,
+          "valid": 21183,
+          "fraction": 0.9989
+        },
+        "RHOB": {
+          "n": 21206,
+          "valid": 4934,
+          "fraction": 0.2327
+        },
+        "NPHI": {
+          "n": 21206,
+          "valid": 5337,
+          "fraction": 0.2517
+        },
+        "DTC": {
+          "n": 21206,
+          "valid": 9187,
+          "fraction": 0.4332
+        },
+        "RDEP": {
+          "n": 21206,
+          "valid": 20111,
+          "fraction": 0.9484
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 21206,
+          "valid": 19934,
+          "fraction": 0.94
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 21206,
+          "valid": 4942,
+          "fraction": 0.233
+        }
+      }
+    },
+    {
+      "file": "35_9-6 S.las",
+      "well": "35_9-6 S",
+      "n_rows": 22105,
+      "step_m": 0.152,
+      "start_m": 395.0,
+      "stop_m": 3754.9504395,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "ROPA",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 22105,
+          "valid": 21545,
+          "fraction": 0.9747
+        },
+        "RHOB": {
+          "n": 22105,
+          "valid": 13229,
+          "fraction": 0.5985
+        },
+        "NPHI": {
+          "n": 22105,
+          "valid": 13266,
+          "fraction": 0.6001
+        },
+        "DTC": {
+          "n": 22105,
+          "valid": 15672,
+          "fraction": 0.709
+        },
+        "RDEP": {
+          "n": 22105,
+          "valid": 21579,
+          "fraction": 0.9762
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 22105,
+          "valid": 21446,
+          "fraction": 0.9702
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 22105,
+          "valid": 13155,
+          "fraction": 0.5951
+        }
+      }
+    },
+    {
+      "file": "35_9-7.las",
+      "well": "35_9-7",
+      "n_rows": 17166,
+      "step_m": 0.152,
+      "start_m": 397.0508,
+      "stop_m": 3006.138916,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 17166,
+          "valid": 17030,
+          "fraction": 0.9921
+        },
+        "RHOB": {
+          "n": 17166,
+          "valid": 10618,
+          "fraction": 0.6185
+        },
+        "NPHI": {
+          "n": 17166,
+          "valid": 10617,
+          "fraction": 0.6185
+        },
+        "DTC": {
+          "n": 17166,
+          "valid": 15914,
+          "fraction": 0.9271
+        },
+        "RDEP": {
+          "n": 17166,
+          "valid": 17033,
+          "fraction": 0.9923
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 17166,
+          "valid": 17018,
+          "fraction": 0.9914
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 17166,
+          "valid": 10677,
+          "fraction": 0.622
+        }
+      }
+    },
+    {
+      "file": "35_9-8.las",
+      "well": "35_9-8",
+      "n_rows": 18842,
+      "step_m": 0.152,
+      "start_m": 392.0216,
+      "stop_m": 3255.9221,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RMED",
+        "RMIC",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 18842,
+          "valid": 18495,
+          "fraction": 0.9816
+        },
+        "RHOB": {
+          "n": 18842,
+          "valid": 4623,
+          "fraction": 0.2454
+        },
+        "NPHI": {
+          "n": 18842,
+          "valid": 4605,
+          "fraction": 0.2444
+        },
+        "DTC": {
+          "n": 18842,
+          "valid": 15425,
+          "fraction": 0.8186
+        },
+        "RDEP": {
+          "n": 18842,
+          "valid": 18337,
+          "fraction": 0.9732
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 18842,
+          "valid": 18177,
+          "fraction": 0.9647
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 18842,
+          "valid": 4274,
+          "fraction": 0.2268
+        }
+      }
+    },
+    {
+      "file": "36_7-3.las",
+      "well": "36_7-3",
+      "n_rows": 16950,
+      "step_m": 0.152,
+      "start_m": 373.0,
+      "stop_m": 2949.2936,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "ROPA",
+        "RDEP",
+        "RMED",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 16950,
+          "valid": 15633,
+          "fraction": 0.9223
+        },
+        "RHOB": {
+          "n": 16950,
+          "valid": 10089,
+          "fraction": 0.5952
+        },
+        "NPHI": {
+          "n": 16950,
+          "valid": 10071,
+          "fraction": 0.5942
+        },
+        "DTC": {
+          "n": 16950,
+          "valid": 10458,
+          "fraction": 0.617
+        },
+        "RDEP": {
+          "n": 16950,
+          "valid": 15630,
+          "fraction": 0.9221
+        },
+        "RSHA": {
+          "n": 0,
+          "valid": 0,
+          "fraction": 0
+        },
+        "RMED": {
+          "n": 16950,
+          "valid": 15443,
+          "fraction": 0.9111
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 16950,
+          "valid": 3634,
+          "fraction": 0.2144
+        }
+      }
+    },
+    {
+      "file": "7_1-1.las",
+      "well": "7_1-1",
+      "n_rows": 17982,
+      "step_m": 0.152,
+      "start_m": 82.600799561,
+      "stop_m": 2815.7912598,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "DCAL",
+        "MUDWEIGHT",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "SP",
+        "DTC",
+        "NPHI",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 17982,
+          "valid": 16242,
+          "fraction": 0.9032
+        },
+        "RHOB": {
+          "n": 17982,
+          "valid": 4397,
+          "fraction": 0.2445
+        },
+        "NPHI": {
+          "n": 17982,
+          "valid": 4404,
+          "fraction": 0.2449
+        },
+        "DTC": {
+          "n": 17982,
+          "valid": 11396,
+          "fraction": 0.6337
+        },
+        "RDEP": {
+          "n": 17982,
+          "valid": 16121,
+          "fraction": 0.8965
+        },
+        "RSHA": {
+          "n": 17982,
+          "valid": 16115,
+          "fraction": 0.8962
+        },
+        "RMED": {
+          "n": 17982,
+          "valid": 16152,
+          "fraction": 0.8982
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 17982,
+          "valid": 16242,
+          "fraction": 0.9032
+        }
+      }
+    },
+    {
+      "file": "7_1-2 S.las",
+      "well": "7_1-2 S",
+      "n_rows": 19586,
+      "step_m": 0.152,
+      "start_m": 198.0164,
+      "stop_m": 3174.998,
+      "curves": [
+        "DEPT",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE",
+        "FORCE_2020_LITHOFACIES_LITHOLOGY",
+        "CALI",
+        "BS",
+        "ROPA",
+        "ROP",
+        "RDEP",
+        "RSHA",
+        "RMED",
+        "DTS",
+        "DTC",
+        "NPHI",
+        "PEF",
+        "GR",
+        "RHOB",
+        "DRHO",
+        "DEPTH_MD",
+        "x_loc",
+        "y_loc",
+        "z_loc"
+      ],
+      "stats": {
+        "GR": {
+          "n": 19586,
+          "valid": 19544,
+          "fraction": 0.9979
+        },
+        "RHOB": {
+          "n": 19586,
+          "valid": 1617,
+          "fraction": 0.0826
+        },
+        "NPHI": {
+          "n": 19586,
+          "valid": 1654,
+          "fraction": 0.0844
+        },
+        "DTC": {
+          "n": 19586,
+          "valid": 3053,
+          "fraction": 0.1559
+        },
+        "RDEP": {
+          "n": 19586,
+          "valid": 19544,
+          "fraction": 0.9979
+        },
+        "RSHA": {
+          "n": 19586,
+          "valid": 15778,
+          "fraction": 0.8056
+        },
+        "RMED": {
+          "n": 19586,
+          "valid": 19505,
+          "fraction": 0.9959
+        },
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": {
+          "n": 19586,
+          "valid": 2041,
+          "fraction": 0.1042
+        }
+      }
+    }
+  ]
+}

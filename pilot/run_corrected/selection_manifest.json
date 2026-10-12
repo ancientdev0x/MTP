@@ -1,0 +1,97 @@
+{
+  "source_root": "/home/ancientai/Projects/serious/MTP/data/force2020/extracted",
+  "candidates_total": 118,
+  "selected": [
+    {
+      "path": "Force_2020_all_wells_train_test_blind_hidden_final/15_9-13.las",
+      "absolute_path": "/home/ancientai/Projects/serious/MTP/data/force2020/extracted/Force_2020_all_wells_train_test_blind_hidden_final/15_9-13.las",
+      "sha256": "933752fd96b8c286b17d125b28d8a53dcd1d4c69e179a482cfaedfc2ace5fb00",
+      "well": "15/9-13 Sleipner East Appr",
+      "depth_unit": "m",
+      "gr_unit": "gAPI",
+      "block_rows_half_open": [
+        484,
+        21384
+      ],
+      "selected_rows_half_open": [
+        484,
+        4581
+      ],
+      "depth_range": [
+        98.568,
+        721.16
+      ],
+      "analysis_depth_range": [
+        104.648,
+        715.08
+      ],
+      "points": 4097,
+      "dt_declared": 0.152,
+      "dt_min": 0.15199999999992997,
+      "dt_max": 0.15200000000004366,
+      "max_step_error": 7.002731727823175e-14,
+      "rounding_tolerance_m": 0.0005
+    },
+    {
+      "path": "Force_2020_all_wells_train_test_blind_hidden_final/15_9-14.las",
+      "absolute_path": "/home/ancientai/Projects/serious/MTP/data/force2020/extracted/Force_2020_all_wells_train_test_blind_hidden_final/15_9-14.las",
+      "sha256": "45128f4070ffa50c707f98383ce498922a1c26a77cf224f1384cdf973f397b3a",
+      "well": "15/9-14",
+      "depth_unit": "m",
+      "gr_unit": "gAPI",
+      "block_rows_half_open": [
+        0,
+        22802
+      ],
+      "selected_rows_half_open": [
+        0,
+        4097
+      ],
+      "depth_range": [
+        98.804000854,
+        721.39600085
+      ],
+      "analysis_depth_range": [
+        104.88400085,
+        715.31600085
+      ],
+      "points": 4097,
+      "dt_declared": 0.152,
+      "dt_min": 0.1519999960000007,
+      "dt_max": 0.15200000000004366,
+      "max_step_error": 3.999999304005186e-09,
+      "rounding_tolerance_m": 0.0005
+    },
+    {
+      "path": "Force_2020_all_wells_train_test_blind_hidden_final/15_9-15.las",
+      "absolute_path": "/home/ancientai/Projects/serious/MTP/data/force2020/extracted/Force_2020_all_wells_train_test_blind_hidden_final/15_9-15.las",
+      "sha256": "25605db46b6765a01c88dc3e144cadc4b5a45b3818ce251dbbc9358274006b56",
+      "well": "15/9-15 Gungne",
+      "depth_unit": "m",
+      "gr_unit": "gAPI",
+      "block_rows_half_open": [
+        548,
+        20897
+      ],
+      "selected_rows_half_open": [
+        548,
+        4645
+      ],
+      "depth_range": [
+        108.296,
+        730.888
+      ],
+      "analysis_depth_range": [
+        114.376,
+        724.808
+      ],
+      "points": 4097,
+      "dt_declared": 0.152,
+      "dt_min": 0.15199999999992997,
+      "dt_max": 0.15200000000004366,
+      "max_step_error": 7.002731727823175e-14,
+      "rounding_tolerance_m": 0.0005
+    }
+  ],
+  "rejected": []
+}

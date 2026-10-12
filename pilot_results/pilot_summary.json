@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "synthetic_series": 60,
+    "real_records": 354,
+    "step_m": 0.152,
+    "note": "screening pilot; not a thesis result"
+  },
+  "synthetic": {
+    "records": 60,
+    "valid_spectral": 60,
+    "valid_variogram": 60,
+    "valid_rs": 60
+  },
+  "real_gr": {
+    "records": 354,
+    "valid_spectral": 354,
+    "valid_variogram": 354,
+    "valid_rs": 354
+  }
+}

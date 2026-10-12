@@ -1,0 +1,310 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.78in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,booktabs,array,xcolor,enumitem,hyperref,fancyhdr,titlesec}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\definecolor{Navy}{HTML}{12304A}
+\definecolor{Teal}{HTML}{007C83}
+\definecolor{Amber}{HTML}{B66A00}
+\definecolor{Light}{HTML}{F3F6F8}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist{itemsep=2pt,topsep=3pt}
+\pagestyle{fancy}
+\setlength{\headheight}{14pt}
+\fancyhf{}
+\lhead{MTP Mastery Pack}
+\rhead{Scientist | 02 October 2026}
+\cfoot{\thepage}
+\titleformat{\section}{\Large\bfseries\color{Navy}}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\large\bfseries\color{Teal}}{\thesubsection}{0.5em}{}
+\newcommand{\key}[1]{\textbf{\color{Navy}#1}}
+\newcommand{\warning}[1]{\begin{quote}\color{Amber}\textbf{Boundary:} #1\end{quote}}
+\newcommand{\answer}[1]{\begin{quote}\color{Navy}\textbf{Defence answer:} #1\end{quote}}
+
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{1.1cm}
+{\Huge\bfseries\color{Navy} MTP Mastery Pack\par}
+\vspace{0.35cm}
+{\Large\color{Teal} What you need to understand --- and nothing you need to fake\par}
+\vspace{1cm}
+{\LARGE\bfseries Artifact-Aware Stability of Fractal Features\\in Depth-Indexed Well Logs\par}
+\vspace{0.8cm}
+\begin{minipage}{0.88\textwidth}
+\small
+This is a source-grounded study guide made only from the current MTP documents, the consolidated literature notes, the corrected pilot report, the research report, and the prespecification. It is deliberately narrower than the entire literature. Its purpose is to make the current bounded work understandable and defensible.
+\end{minipage}
+\vfill
+\begin{tabular}{rl}
+\textbf{Current status:} & Synthetic known-answer gate passed; real stable-single-$H$ interpretation: no-go.\\
+\textbf{Pilot data:} & Three deterministic contiguous GR intervals from FORCE 2020.\\
+\textbf{Tests:} & Four automated tests passed.\\
+\textbf{Use:} & Read in order; practise the boxed answers aloud.
+\end{tabular}
+\vfill
+{\large 02 October 2026\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{The one-minute version}
+\textbf{Problem.} Fractal/Hurst-like attributes are often extracted from well logs, but a measured attribute can change because of finite length, sampling, filtering, preprocessing, nonstationarity, or geological-regime mixing.
+
+\textbf{Research question.} Under controlled sampling and filtering perturbations, which established fractal features extracted from depth-indexed well logs are recoverable, stable, and interpretable over a declared physical scale range?
+
+\textbf{Contribution.} This is not a new estimator. It is a reproducible, artifact-aware stability benchmark: first test estimators on signals with known parameters, then test a small number of real GR intervals without pretending that real logs have a known true $H$.
+
+\textbf{Current result.} The corrected synthetic generator recovered the known $H$ values in the bounded test. On three real GR intervals, the spectral and variogram estimates disagreed enough that the data did not support one unqualified stable single-$H$ interpretation.
+
+\answer{My work asks whether an apparent fractal attribute is stable enough to interpret after accounting for processing and estimator effects. The synthetic test passed, but the three real intervals did not justify a single $H$. Therefore the result is a narrow methodological no-go, not a claim that the logs contain no scaling structure.}
+
+\warning{Never describe the current work as proof of geological fractality, a reservoir-property predictor, a validated multifractal result, or a universal statement about FORCE 2020 wells.}
+
+\section{What the literature actually contributes}
+Only the following literature ideas are needed for the current work.
+
+\begin{enumerate}
+\item \textbf{Mandelbrot (1967):} natural irregular objects may show statistical self-similarity; a power law over a declared range of scales can be summarized by a log--log slope. Exact self-similarity is not required for natural data.
+\item \textbf{Schepers et al. (1992):} for one-dimensional self-affine signals, several estimators exist; spectral and R/S estimates depend on finite length, lag choices, synthesis method, and preprocessing.
+\item \textbf{Li (2003):} well logs are nonstationary/intermittent in practice; R/S on increments can behave differently from R/S on raw levels; tool resolution can create high-frequency spectral roll-off; at least two independent methods are advisable.
+\item \textbf{Hough (1989):} a power-law spectrum is necessary but not sufficient evidence for a fractal process. Concatenated regimes, nonstationarity, phase information, and processing can produce misleading slopes.
+\item \textbf{Reservoir/well-log papers:} fractal descriptors have been applied to log-derived properties, correction, correlation, and reservoir characterization, but those applications do not remove the need for validation, scale selection, and transferability checks.
+\item \textbf{Multifractal papers:} a multifractal spectrum describes a distribution of local scaling exponents, but a valid well-log measure and defensible scale range must be defined first. This is why the multifractal extension is deferred in the current MTP.
+\end{enumerate}
+
+\subsection{What not to import blindly}
+\begin{itemize}
+\item A formula from an application paper is not automatically valid for every log or estimator.
+\item A high log--log $R^2$ does not prove fractality.
+\item A sharper/corrected curve is not automatically closer to physical truth.
+\item A result from one field, tool, or formation does not establish cross-well generalization.
+\item A broad $f(\alpha)$ curve is not by itself proof of genuine multifractality.
+\end{itemize}
+
+\section{Core vocabulary}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth} p{0.68\textwidth}}
+\toprule
+\textbf{Term} & \textbf{Meaning for this MTP}\\
+\midrule
+Well log & A measured one-dimensional signal indexed by depth. The bounded pilot uses gamma ray (GR).\\
+Scale/self-similarity & A relationship that may repeat statistically over a range of scales; the range must be declared.\\
+Monofractal & One effective scaling exponent describes the signal over the tested range.\\
+Multifractal & Multiple local scaling exponents are present; commonly summarized by $\tau(q)$ and $f(\alpha)$.\\
+Hurst exponent $H$ & A scaling/roughness descriptor, not automatically a geological property.\\
+fBm & Fractional Brownian motion levels: nonstationary, with stationary increments.\\
+fGn & Fractional Gaussian noise: stationary increments/noise-like process associated with fBm increments.\\
+Variogram & A lag-based mean squared difference diagnostic.\\
+Spectrum & A frequency/wavelength power diagnostic.\\
+Artifact & A measured pattern caused or altered by sampling, filtering, finite length, gaps, processing, or mixed regimes.\\
+\bottomrule
+\end{tabular}
+
+\section{The mathematical minimum}
+\subsection{Hurst behavior}
+For the convention used in the current corrected pilot, $0<H<1$.
+\begin{itemize}
+\item $H\approx0.5$: random/Brownian-type benchmark.
+\item $H>0.5$: persistent behavior; increments tend to continue in the same direction.
+\item $H<0.5$: antipersistent behavior; increments tend to reverse more often.
+\end{itemize}
+These are descriptors of the tested signal/model. They are not automatically statements about porosity, permeability, lithology, or hydrocarbons.
+
+\subsection{Correct fGn/fBm construction}
+The corrected pilot defines the unit-scale fGn covariance
+\[
+C_H(k)=\frac{1}{2}\left[(k+1)^{2H}-2k^{2H}+|k-1|^{2H}\right].
+\]
+A circulant covariance embedding is constructed, its Fourier eigenvalues are checked for positive semidefiniteness, and Gaussian fGn increments $G_i$ are generated. The level process is then
+\[
+B_0=0,\qquad B_j=\sum_{i=0}^{j-1}G_i.
+\]
+Therefore $B_j$ is fBm-like and $G_i=B_{i+1}-B_i$ are the fGn increments.
+
+\answer{The important point is not memorizing the covariance formula. It is understanding that fGn is the stationary increment process and fBm-like levels are obtained by cumulative summation. The implementation checks this identity and does not silently clip materially negative embedding eigenvalues.}
+
+\subsection{Spectral convention used in the pilot}
+If power behaves approximately as
+\[
+P(f)\propto f^{-\beta},
+\]
+then the fitted signed log-power/log-frequency slope is $m=-\beta$. For the pilot's differenced fGn spectral diagnostic,
+\[
+\beta_{\mathrm{fGn}}=2H-1,\qquad H_{\mathrm{spec}}=\frac{1-m}{2}.
+\]
+For fBm-like levels, the commonly used scaling relation is
+\[
+\beta_{\mathrm{fBm}}=2H+1.
+\]
+These are finite-band/asymptotic model relationships. They are not an exact guarantee across every discrete frequency or every real log.
+
+\subsection{Variogram convention}
+For a complete regular record $x$ with lag $k$ and spacing $\Delta$,
+\[
+\widehat{\gamma}(k\Delta)=\frac{1}{2(N-k)}\sum_{i=0}^{N-k-1}(x_{i+k}-x_i)^2.
+\]
+For fBm-like levels, the ideal scaling is
+\[
+\gamma(r)\propto r^{2H},\qquad H_{\mathrm{var}}=\frac{1}{2}\frac{d\log\gamma}{d\log r}.
+\]
+The current pilot therefore applies the variogram diagnostic to levels and the spectral diagnostic to first differences. Directly treating the fGn variogram as an fBm power law would be a model mistake because the fGn variogram approaches a sill.
+
+\section{The current experiment}
+\subsection{Synthetic known-answer experiment}
+\begin{itemize}
+\item Known values: $H\in\{0.2,0.5,0.8\}$.
+\item Four fixed seeds per $H$.
+\item 8192 increments per realization.
+\item Variogram applied to fBm-like levels.
+\item Spectrum applied to first differences.
+\item Prespecified bounded gate: separate bias/RMSE limits for each $H$ and estimator.
+\end{itemize}
+
+\begin{center}
+\begin{tabular}{@{}ccrrc@{}}
+\toprule
+Known $H$ & Estimator & Bias & RMSE & Gate\\
+\midrule
+0.2 & Variogram & -0.0135 & 0.0270 & Pass\\
+0.2 & Spectral & -0.0143 & 0.0653 & Pass\\
+0.5 & Variogram & -0.0199 & 0.0333 & Pass\\
+0.5 & Spectral & 0.0051 & 0.0637 & Pass\\
+0.8 & Variogram & -0.0285 & 0.0463 & Pass\\
+0.8 & Spectral & 0.0068 & 0.0637 & Pass\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Interpretation:} the corrected generator and the declared estimator inputs are internally consistent for this bounded test. This is not comprehensive Monte Carlo validation: four seeds per $H$ are only a sanity check.
+
+\subsection{Real GR pilot}
+\begin{itemize}
+\item Dataset: public FORCE 2020 LAS collection.
+\item Selection: deterministic contiguous finite uniform GR blocks; no interpolation across gaps.
+\item Three selected intervals: 15\_9-13, 15\_9-14, 15\_9-15.
+\item Each interval: baseline, Gaussian smoothing, and anti-aliased downsampling by factors 2 and 4.
+\item Approximate declared native spacing: 0.152 m.
+\item Common physical lag range in the current report: approximately 3.04--24.32 m.
+\end{itemize}
+
+\begin{center}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Well & Variogram $H$ & Spectral $H$ & Largest variant change & Gate\\
+\midrule
+15\_9-13 & 0.3867 & -0.1087 & 0.0945 & Fail\\
+15\_9-14 & 0.3382 & 0.1143 & 0.0944 & Fail\\
+15\_9-15 & 0.3050 & 0.0163 & 0.0946 & Fail\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Why did the gate fail?} The baseline variogram and spectral estimates disagreed substantially relative to the declared interpretation threshold. The pilot therefore does not support one unqualified single-$H$ value for these intervals. The failure is not evidence that the generator failed; it is evidence that real-log interpretation needs more calibration and scale/stationarity checks.
+
+\section{How to interpret the result honestly}
+\subsection{What passed}
+\begin{itemize}
+\item The corrected stochastic construction was implemented.
+\item Four automated tests passed.
+\item The synthetic known-answer gate passed for both estimators at all three tested $H$ values.
+\item The pipeline handled invalid inputs, contiguous-block selection, physical-grid checks, anti-alias suppression, and saved artifacts.
+\end{itemize}
+
+\subsection{What did not pass}
+\begin{itemize}
+\item A stable, single-H interpretation of the three tested real GR intervals.
+\item Generalization to all FORCE wells.
+\item A geological interpretation of H or D.
+\item Genuine multifractality.
+\end{itemize}
+
+\answer{The safe conclusion is: the pilot establishes a reproducible bounded test and demonstrates estimator disagreement on selected real intervals. It does not estimate a universal geological H, prove multifractality, or establish reservoir-property prediction.}
+
+\section{Multifractality: only what you need now}
+A monofractal model uses one effective scaling exponent. A multifractal model describes a distribution of local exponents, often through a spectrum $f(\alpha)$ or a partition function.
+
+For a positive measure distributed over boxes of size $\epsilon$,
+\[
+\alpha=\frac{\log \mu(B(\epsilon))}{\log\epsilon},
+\qquad
+Z_q(\epsilon)=\sum_i \mu_i(\epsilon)^q.
+\]
+If a scaling law is defensible,
+\[
+Z_q(\epsilon)\propto\epsilon^{\tau(q)},
+\]
+and, under suitable assumptions, a Legendre transform gives
+\[
+\alpha(q)=\frac{d\tau(q)}{dq},\qquad f(\alpha)=q\alpha-\tau(q).
+\]
+
+\warning{The current MTP does not define a canonical well-log measure, does not claim a genuine multifractal spectrum, and does not implement a validated multifractal extension. Do not defend multifractal conclusions as if they are already results.}
+
+If asked why multifractality was deferred:
+\answer{A multifractal result requires a defensible measure, a justified $q$ range, stable scaling across multiple finite scales, surrogate or known-answer controls, and careful handling of nonstationarity and missingness. The current monofractal calibration and real-log protocol should pass first.}
+
+\section{Limitations you must know}
+\begin{enumerate}
+\item Four seeds per synthetic $H$ are insufficient for a final uncertainty claim; the next phase should use at least 30 independent realizations per $H$.
+\item Three real intervals are not a population study.
+\item FORCE curves are cleaned/despiked products, not raw logging-tool ground truth.
+\item Gaussian smoothing is a controlled numerical perturbation, not a measured tool-transfer function.
+\item The selected intervals were deterministic contiguous windows, not proven facies-homogeneous intervals.
+\item Spectral ordinates and variogram lags are dependent; regression $R^2$ is descriptive, not a confidence interval.
+\item A real log has no known true $H$ in this experiment, so real differences are sensitivity results, not bias estimates.
+\item Finite-scale and stationarity diagnostics must be strengthened before geological interpretation.
+\end{enumerate}
+
+\section{Likely questions and honest answers}
+\begin{description}
+\item[What is your novelty?] The novelty is the integrated artifact-aware stability and known-answer validation protocol, not a new fractal estimator.
+\item[Why use GR?] GR is a commonly available depth-indexed channel and was used for a bounded pilot. The result is not claimed to generalize to every channel or formation.
+\item[Why not use the whole dataset?] The first corrected stage was deliberately bounded so that the method, scale rules, and failure modes could be inspected before expansion.
+\item[What is the real ground truth?] There is no independent true H for the real logs. Therefore, the real analysis is descriptive sensitivity and estimator agreement/disagreement.
+\item[Does NO-GO mean the research failed?] No. It rejects an unqualified interpretation under the tested protocol and identifies the validation work required next.
+\item[Why compare two estimators?] Independent diagnostics can reveal estimator-specific sensitivity. Agreement is useful, but disagreement is also scientifically informative.
+\item[Why not claim fractality from a straight line?] A power-law-looking slope is not sufficient: mixed regimes, filtering, finite length, nonstationarity, and phase effects can produce one.
+\item[What would you do next?] Expand synthetic calibration, freeze physical passbands, add uncertainty/paired variability reporting, select more predetermined real windows, annotate geological context, and only then reconsider multifractal analysis.
+\item[What if you do not know an answer?] State the scope boundary: “That was not established by this bounded pilot; answering it would require the next validation stage.”
+\end{description}
+
+\section{Study plan: smart reading order}
+\begin{enumerate}
+\item Read this pack once without memorizing formulas.
+\item Re-read Sections 1, 3, 4, 5, 6, and 7. These contain the current work.
+\item Read the current research report's Methods, Results, Interpretation, Limitations, and Next Steps sections.
+\item Read only the relevant source-note portions in this order:
+\begin{enumerate}
+\item `05-estimation-methods.md`: spectral, variogram, R/S cautions.
+\item `03-well-log-and-reservoir-papers.md`: Li (2003), then the application limitations.
+\item `15-pilot-method-review.md`: corrected fBm/fGn conventions, physical-scale comparison, gaps, and gates.
+\item \texttt{15-pilot-results.md} and \texttt{pilot/run\_corrected/report.md}: exact executed outcome.
+\end{enumerate}
+\item Practise the one-minute version and the eight likely questions aloud.
+\item Do not spend current preparation time on the full multifractal literature, reservoir-property prediction, or formulas not used in the present pilot.
+\end{enumerate}
+
+\section{Source map for this pack}
+This guide was assembled from the following local project documents; no external source was used for its content:
+\begin{itemize}
+\item `okf-open-knowledge-format/00-progress.md`
+\item `okf-open-knowledge-format/03-well-log-and-reservoir-papers.md`
+\item `okf-open-knowledge-format/04-foundational-fractal-theory.md`
+\item `okf-open-knowledge-format/05-estimation-methods.md`
+\item `okf-open-knowledge-format/12-final-mtp-recommendation.md`
+\item `okf-open-knowledge-format/15-pilot-method-review.md`
+\item `okf-open-knowledge-format/15-pilot-results.md`
+\item \texttt{pilot/run\_corrected/report.md}
+\item \texttt{research\_report/main.tex}
+\end{itemize}
+
+\vfill
+\begin{center}
+\color{Teal}\textbf{Mastery standard: understand the scope, explain the method, state the result, and defend the limitation. Do not fake certainty.}
+\end{center}
+\end{document}

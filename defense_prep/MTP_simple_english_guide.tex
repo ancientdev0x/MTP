@@ -1,0 +1,287 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,booktabs,array,xcolor,enumitem,hyperref,fancyhdr,titlesec}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\definecolor{Navy}{HTML}{12304A}
+\definecolor{Teal}{HTML}{007C83}
+\definecolor{Amber}{HTML}{A65E00}
+\definecolor{Light}{HTML}{F3F6F8}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist{itemsep=2pt,topsep=3pt}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{MTP Simple English Guide}
+\rhead{02 October 2026}
+\cfoot{\thepage}
+\titleformat{\section}{\Large\bfseries\color{Navy}}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\large\bfseries\color{Teal}}{\thesubsection}{0.5em}{}
+\newcommand{\term}[1]{\textbf{\color{Navy}#1}}
+\newcommand{\say}[1]{\begin{quote}\color{Navy}\textbf{Say this:} #1\end{quote}}
+\newcommand{\care}[1]{\begin{quote}\color{Amber}\textbf{Be careful:} #1\end{quote}}
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{0.9cm}
+{\Huge\bfseries\color{Navy} MTP Simple English Guide\par}
+\vspace{0.35cm}
+{\Large\color{Teal} Easy explanations and speaking sentences\par}
+\vspace{0.8cm}
+{\LARGE\bfseries Fractal Features in Well Logs\par}
+\vspace{0.3cm}
+{\large Under sampling, filtering, and processing changes\par}
+\vspace{0.8cm}
+\begin{minipage}{0.87\textwidth}
+This version uses simple English. Every important technical word is defined before it is used. The explanations are based on the current MTP documents and the executed pilot. It is written for understanding and honest discussion with your professor, not for memorising difficult language.
+\end{minipage}
+\vfill
+\textbf{Main result:} synthetic test passed; real three-window single-$H$ interpretation was not accepted.\\
+\textbf{Current pilot:} corrected generator, four tests passed, three contiguous GR intervals.
+\vfill
+{\large Read the definitions first, then practise the ``Say this'' boxes aloud.\par}
+\vfill
+{\large 02 October 2026\par}
+\end{titlepage}
+
+\section{The whole project in simple English}
+A \term{well log} is a measurement taken along the depth of a borehole. In this project, the main measurement is \term{gamma ray (GR)}. GR is one number at each depth.
+
+The GR curve looks irregular. We want to know whether its roughness follows a useful pattern at different depth scales. A \term{scale} means the size of the feature we are looking at: a small depth interval or a larger depth interval.
+
+Many studies calculate a number called the \term{Hurst exponent}, written as $H$. $H$ is a number that describes how rough or smooth a signal appears across scales. But an $H$ value can change when we smooth, resample, or analyse the signal in a different way.
+
+Therefore, this MTP asks:
+
+\begin{quote}\textbf{When we change sampling, filtering, or the analysis method, does the measured fractal feature stay reliable?}\end{quote}
+
+\say{My project does not try to prove that every well log is fractal. It checks whether commonly used fractal measurements are stable and recoverable before we give them a geological meaning.}
+
+\section{Important words: simple definitions}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.27\textwidth} p{0.65\textwidth}}
+\toprule
+\textbf{Word} & \textbf{Simple meaning}\\
+\midrule
+Signal & A sequence of measured numbers. Here, the numbers are arranged by depth.\\
+Depth-indexed & Each measurement has a depth position.\\
+Scale & The size or distance over which we study the signal.\\
+Roughness & How quickly the signal changes up and down.\\
+Self-similarity & A similar pattern appears at more than one scale. In natural data it is usually statistical, not exact.\\
+Fractal feature & A number that summarises scaling or roughness, such as $H$ or a fractal dimension.\\
+Hurst exponent $H$ & A number used to describe persistence and roughness. It is not automatically a rock property.\\
+Persistent & A change is more likely to continue in the same direction. Usually associated with $H>0.5$.\\
+Antipersistent & A change is more likely to reverse direction. Usually associated with $H<0.5$.\\
+Stationary & The statistical behaviour does not change with position.\\
+Nonstationary & The statistical behaviour changes with position or depth.\\
+Estimator & A calculation method that estimates an unknown quantity from data.\\
+Spectrum & A description of how signal power is distributed across frequencies or wavelengths.\\
+Frequency & How quickly a pattern repeats. High frequency means short wavelength; low frequency means long wavelength.\\
+Variogram & A calculation of average squared differences between points separated by a chosen lag.\\
+Lag & The distance between two points being compared.\\
+Filtering & Smoothing or changing a signal to remove or reduce some scales.\\
+Downsampling & Keeping fewer samples, so the distance between samples becomes larger.\\
+Antialiasing & Low-pass filtering before downsampling, to reduce false patterns caused by insufficient sampling.\\
+Finite record & A dataset with limited length. It cannot show every possible scale.\\
+Contiguous interval & A continuous depth interval with no invalid gap inside it.\\
+Ground truth & A known correct answer used to test a method.\\
+Bias & Average estimate minus the known answer.\\
+RMSE & A summary of typical estimation error; it penalises large errors more strongly.\\
+No-go & The stated interpretation is not supported under the tested conditions. It does not mean the whole research idea failed.\\
+\bottomrule
+\end{tabular}
+
+\section{What is $H$?}
+$H$ is the Hurst exponent. In simple terms, it describes whether changes in a signal tend to continue or reverse.
+
+\begin{itemize}
+\item $H\approx0.5$: behaviour similar to a random benchmark.
+\item $H>0.5$: persistent behaviour; changes tend to continue.
+\item $H<0.5$: antipersistent behaviour; changes tend to reverse.
+\end{itemize}
+
+The important limitation is this: an $H$ calculated from a real GR curve is not automatically the true geological $H$. It may depend on the selected depth interval, preprocessing, estimator, and scale range.
+
+\say{$H$ is a descriptive scaling number. In my current pilot, I do not treat it as a direct measurement of porosity, permeability, lithology, or hydrocarbons.}
+
+\section{fBm and fGn: the minimum you need}
+These are names for two related mathematical signal models.
+
+\term{Fractional Brownian motion (fBm)} means a level signal whose behaviour changes with position; its levels are nonstationary. However, the differences between nearby levels can have a stable statistical pattern.
+
+\term{Fractional Gaussian noise (fGn)} means the increment or difference signal related to fBm. In the current convention, fGn is stationary.
+
+An \term{increment} is simply the difference between two consecutive values:
+\[
+G_i=B_{i+1}-B_i.
+\]
+The corrected generator first creates fGn increments $G_i$ and then adds them cumulatively:
+\[
+B_0=0,\qquad B_j=\sum_{i=0}^{j-1}G_i.
+\]
+
+\say{The key distinction is that fGn is the stationary increment process, while fBm-like levels are obtained by cumulative summation. I keep these two inputs separate because the spectral and variogram formulas depend on which one is being analysed.}
+
+\section{The two measurements used in the pilot}
+\subsection{Spectral method}
+A spectrum shows how much signal power appears at different frequencies. A \term{spectral slope} is the slope of a log-power versus log-frequency graph.
+
+For the pilot's differenced signal, the working relationship is
+\[
+P(f)\propto f^{-\beta},\qquad \beta=2H-1.
+\]
+Here $P(f)$ is power and $f$ is frequency. The pilot estimates $H$ from the fitted slope.
+
+\term{Why use it?} It measures scaling in the frequency domain.
+
+\term{Main danger:} filtering, finite length, mixed geological regions, and tool response can change the slope.
+
+\subsection{Variogram method}
+The variogram compares points separated by a chosen depth distance, called a lag:
+\[
+\widehat{\gamma}(k\Delta)=\frac{1}{2(N-k)}\sum_{i=0}^{N-k-1}(x_{i+k}-x_i)^2.
+\]
+In simple words: take pairs of points, calculate their squared difference, and average these differences for each lag.
+
+For fBm-like levels, the ideal model is
+\[
+\gamma(r)\propto r^{2H}.
+\]
+The slope of the log-variogram versus log-lag graph gives an estimate of $H$.
+
+\term{Why use it?} It measures scaling in the depth-lag domain.
+
+\term{Main danger:} it can emphasise different scales from the spectrum, so disagreement between the two methods is possible and informative.
+
+\say{The spectral method and variogram method are two different views of scaling. I do not assume they must agree on a real log. Their disagreement is one of the things the pilot is designed to detect.}
+
+\section{What the literature says in simple language}
+\subsection{The basic fractal idea}
+Mandelbrot's work explains that natural irregular objects can show similar statistical behaviour at different measurement scales. A straight line on a log--log plot may suggest a power-law relationship over a finite scale range.
+
+But this does not mean that every straight line proves a fractal process. The scale range, data quality, and possible mixed behaviours must be checked.
+
+\subsection{What the well-log paper says}
+The Li (2003) well-log paper is the most directly relevant source for this project. Its main practical messages are:
+\begin{itemize}
+\item well logs can be nonstationary and intermittent;
+\item R/S results can change strongly after preprocessing;
+\item increments and raw levels should not automatically be treated as the same type of signal;
+\item logging-tool resolution can reduce high-frequency information;
+\item at least two methods should be compared.
+\end{itemize}
+
+\subsection{What Hough warns}
+A power-law spectrum alone is not enough to prove fractality. A combined record can contain different regions with different slopes. When these regions are joined, the full record may show an artificial overall slope.
+
+\say{This is why I use contiguous intervals and report the result as a sensitivity study. I do not interpret one apparent slope as proof of a single geological process.}
+
+\subsection{What the multifractal literature says}
+A \term{monofractal} has one main scaling exponent. A \term{multifractal} has a range of local scaling exponents.
+
+The multifractal literature uses a curve called $f(\alpha)$, where $\alpha$ represents a local scaling exponent and $f(\alpha)$ describes how common or widespread that exponent is.
+
+A \term{partition function} combines measurements at different boxes or scales. A \term{Legendre transform} is a mathematical conversion used to obtain a spectrum from a scaling function.
+
+\care{The current MTP does not yet claim genuine multifractality. A valid multifractal study would first need a clearly defined measure, a justified scale range, enough data, and surrogate or known-answer controls.}
+
+\section{The current experiment}
+\subsection{Synthetic test: a test with a known answer}
+A synthetic signal is made by the computer. In this test, the true value of $H$ is known.
+
+\begin{itemize}
+\item Tested values: $H=0.2$, $0.5$, and $0.8$.
+\item Four fixed random seeds for each $H$.
+\item Variogram applied to levels.
+\item Spectrum applied to first differences.
+\item The estimated value was compared with the known value.
+\end{itemize}
+
+\textbf{Result:} the synthetic gate passed for both estimators at all three tested values.
+
+\term{Meaning:} the corrected generator and the calculation pipeline behaved correctly in this small test. It does not mean that every real well log will follow the same model.
+
+\subsection{Real GR test}
+The real data came from the public FORCE 2020 dataset. Invalid values and depth gaps were not joined together. Three deterministic continuous GR intervals were selected.
+
+Each interval was analysed in several conditions:
+\begin{itemize}
+\item original baseline;
+\item Gaussian smoothing;
+\item anti-aliased downsampling by factors 2 and 4.
+\end{itemize}
+
+\textbf{Result:} the real stable-single-$H$ interpretation was a no-go because the baseline spectral and variogram values disagreed substantially.
+
+The three baseline pairs were:
+\begin{center}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Well & Variogram $H$ & Spectral $H$ & Largest tested change\\
+\midrule
+15\_9-13 & 0.3867 & -0.1087 & 0.0945\\
+15\_9-14 & 0.3382 & 0.1143 & 0.0944\\
+15\_9-15 & 0.3050 & 0.0163 & 0.0946\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\say{The real result does not say that there is no scaling in the logs. It says that these three intervals do not support one simple, estimator-independent $H$ value under the current protocol.}
+
+\section{What you can and cannot claim}
+\subsection{You can claim}
+\begin{itemize}
+\item A corrected fBm/fGn generator was implemented.
+\item Four automated tests passed.
+\item The small synthetic known-answer test passed.
+\item The real pilot found disagreement between two scaling estimators.
+\item Preprocessing and estimator choice must be checked before geological interpretation.
+\end{itemize}
+
+\subsection{You cannot claim yet}
+\begin{itemize}
+\item that the logs are proven fractal or multifractal;
+\item that one estimator is universally better;
+\item that $H$ predicts porosity, permeability, lithology, or hydrocarbons;
+\item that three intervals represent all FORCE 2020 wells;
+\item that the smoothing kernel is a real logging-tool response;
+\item that the current four seeds provide final uncertainty estimates.
+\end{itemize}
+
+\section{Questions your professor may ask}
+\begin{description}
+\item[What is the main problem?] A fractal number may change because of processing or because we use a different estimator. We need to test stability before interpretation.
+\item[What is your contribution?] I am not inventing a new estimator. I am building a reproducible test of whether established estimators recover known values and remain stable under controlled changes.
+\item[Why did you use GR?] GR is available in the public dataset and is a common depth-indexed well-log channel. I used it for a bounded pilot, not as proof of generality.
+\item[What is the ground truth for real logs?] There is no known true $H$ for the real logs. Therefore, real results are sensitivity and agreement/disagreement results, not accuracy against a known geological answer.
+\item[Why is the result called no-go?] The tested real intervals did not support one unqualified stable single-$H$ interpretation. This is a narrow no-go, not failure of the whole MTP.
+\item[Why not do multifractal analysis now?] The monofractal generator, scale rules, and real-data protocol should be validated first. Otherwise a multifractal spectrum could be an artifact.
+\item[Why not use the whole dataset?] The corrected stage was intentionally small so that the method and failure modes could be checked before a larger study.
+\item[What will you do next?] Use at least 30 synthetic realizations per $H$, add uncertainty reporting, freeze physical scale bands, analyse more predetermined windows, and add geological context before reconsidering multifractality.
+\item[What if you do not know the answer?] Say: “That was not established by this bounded pilot. It is a next-stage question, and I do not want to claim more than the data support.”
+\end{description}
+
+\section{Short speaking script}
+\say{My MTP studies the stability of fractal features in depth-indexed well logs. I use synthetic fBm/fGn signals with known H values to test whether the generator and estimators recover the correct answer. That synthetic test passed. I then analysed three continuous gamma-ray intervals from FORCE 2020 under baseline, smoothing, and downsampling conditions. The real intervals did not support one stable single-H interpretation because the spectral and variogram estimates disagreed. Therefore, my current conclusion is methodological: estimator choice, physical scale, and preprocessing must be validated before giving a fractal feature a geological meaning.}
+
+\section{Study order}
+\begin{enumerate}
+\item Read the definitions in Section 2.
+\item Learn the project story in Sections 1 and 3.
+\item Learn fBm/fGn and the two estimators in Sections 4 and 5.
+\item Memorise the synthetic result and real result in Section 7.
+\item Practise the questions in Section 9 aloud.
+\item Only then read the original Li (2003) paper pages in the appendix of the complete source pack.
+\end{enumerate}
+
+\section{Source boundary}
+This simplified guide is based on the current MTP report, pilot report, pilot method review, final recommendation, progress log, and consolidated notes from the local literature PDFs. It does not add new experimental claims. Where the current pilot is limited, the limitation is stated directly.
+
+\vfill
+\begin{center}
+\color{Teal}\textbf{Understand the words first. Then explain the method. Then state the result. Never claim more than the experiment shows.}
+\end{center}
+\end{document}
